@@ -82,7 +82,7 @@ description = "This is meta description"
 email = "demo@email.com"
 google_analitycs_id = ""
 location = "North Main Street,Brooklyn Australia"
-logo = "images/logo.png"
+logo = "images/logo_1.png"
 mobile = "0124857985320"
 multi_author = false
 [params.gmap]
