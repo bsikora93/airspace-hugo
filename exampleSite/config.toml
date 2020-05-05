@@ -1,5 +1,5 @@
 baseURL = "https://maglers.netlify.com"
-disableLanguages = []
+disableLanguages = ["fr"]
 disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
@@ -13,11 +13,11 @@ languageCode = "en-us"
 languageName = "En"
 weight = 1
 [Languages.fr]
-contentDir = "content/french"
+contentDir = "content/polish"
 copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
 home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
+languageCode = "pl-PL"
+languageName = "PL"
 weight = 2
 [[menu.footer]]
 URL = "about"
