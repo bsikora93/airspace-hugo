@@ -2,12 +2,12 @@
 banner:
   enable: true
   bg_image: images/228.jpg
-  title: A Digital Marketing <br/> & Design Agency
-  content: We love the Web and the work we do.We work closely with our clients to
-    deliver  the best possible solutions for their needs
+  title: Magnetic Levitation Rotating Systems
+  content: Projektujemy, modelujemy i budujemy prototypy maszyn działających w oparciu
+    o technologię lewitacji magnetycznej
   button:
     enable: true
-    label: Discover Our Project
+    label: Dowiedz się, co robimy
     link: project
 about:
   enable: true
