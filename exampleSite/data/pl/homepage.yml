@@ -6,7 +6,7 @@ banner:
   content: Projektujemy, modelujemy i budujemy prototypy maszyn działających w oparciu
     o technologię lewitacji magnetycznej
   button:
-    enable: true
+    enable: false
     label: Dowiedz się, co robimy
     link: project
 about:
