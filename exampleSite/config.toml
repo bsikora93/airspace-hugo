@@ -4,7 +4,7 @@ disableLanguages = ["en"]
 disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
-theme = "airspace-hugo"
+theme = "AMLweb"
 title = "Airspace | Creative Agency Hugo Template"
 
 [Languages.pl]
