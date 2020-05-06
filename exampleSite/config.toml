@@ -6,13 +6,15 @@ paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
 title = "Airspace | Creative Agency Hugo Template"
+
 [Languages.pl]
 contentDir = "content/polish"
 copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
-home = "Accueil"
+home = "Strona główna"
 languageCode = "pl-PL"
 languageName = "PL"
 weight = 1
+
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
@@ -20,62 +22,49 @@ home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 2
-[[menu.footer]]
+
+[[Languages.pl.menu.main]]
+URL = "about"
+name = "O nas"
+weight = 1
+
+[[Languages.en.menu.main]]
 URL = "about"
 name = "About"
 weight = 1
-[[menu.footer]]
-URL = "project"
-name = "Project"
-weight = 2
-[[menu.footer]]
-URL = "service"
-name = "Service"
-weight = 3
-[[menu.footer]]
-URL = "pricing"
-name = "Pricing"
-weight = 4
-[[menu.footer]]
-URL = "faq"
-name = "FAQ"
-weight = 5
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 6
-[[menu.main]]
+
+
+[[Languages.pl.menu.footer]]
+URL = "about"
+name = "O nas"
+weight = 1
+
+[[Languages.en.menu.footer]]
 URL = "about"
 name = "About"
 weight = 1
-[[menu.main]]
-URL = "project"
-name = "Project"
-weight = 2
-[[menu.main]]
-URL = "service"
-name = "Service"
-weight = 3
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 4
-[[menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 5
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-parent = "Pages"
-[[menu.main]]
-URL = "pricing"
-name = "Pricing"
-parent = "Pages"
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 6
+
+# [[menu.footer]]
+# URL = "project"
+# name = "Project"
+# weight = 2
+# [[menu.footer]]
+# URL = "service"
+# name = "Service"
+# weight = 3
+# [[menu.footer]]
+# URL = "pricing"
+# name = "Pricing"
+# weight = 4
+# [[menu.footer]]
+# URL = "faq"
+# name = "FAQ"
+# weight = 5
+# [[menu.footer]]
+# URL = "contact"
+# name = "Contact"
+# weight = 6
+
 [params]
 author = "Themefisher"
 contact_form_action = "#"
@@ -96,6 +85,7 @@ map_marker = "images/marker.png"
 enable = true
 label = "Get A Quote"
 link = "contact"
+
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
