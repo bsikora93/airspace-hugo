@@ -1,17 +1,25 @@
+- id: contact_user_name
+  translation: Imie i Nazwisko
+- id: contact_email
+  translation: Email
+- id: contact_subject
+  translation: Temat
+- id: contact_message
+  translation: Wiadomość
 - id: last_update
   translation: Last updated
 - id: phone
-  translation: Phone
+  translation: Telefon
 - id: email
   translation: Email
 - id: location
-  translation: Location
+  translation: Adres
 - id: buy_now
   translation: Buy Now
 - id: address_title
-  translation: Stop By For A visit
+  translation: Odwiedź nas
 - id: submit
-  translation: Send Message
+  translation: Wyślij wiadmość
 - id: all
   translation: All
 - id: posted_by
