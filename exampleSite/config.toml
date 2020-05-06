@@ -1,23 +1,24 @@
 baseURL = "https://maglers.netlify.com"
-disableLanguages = ["fr"]
+DefaultContentLanguage = "pl"
+disableLanguages = ["en"]
 disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
 title = "Airspace | Creative Agency Hugo Template"
+[Languages.pl]
+contentDir = "content/polish"
+copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
+home = "Accueil"
+languageCode = "pl-PL"
+languageName = "PL"
+weight = 1
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
-weight = 1
-[Languages.fr]
-contentDir = "content/polish"
-copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
-home = "Accueil"
-languageCode = "pl-PL"
-languageName = "PL"
 weight = 2
 [[menu.footer]]
 URL = "about"
