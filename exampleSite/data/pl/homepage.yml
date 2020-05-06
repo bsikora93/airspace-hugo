@@ -43,10 +43,8 @@ service:
 cta:
   enable: true
   bg_image: images/230.jpg
-  title: We design delightful digital experiences.
-  content: Read more about what we do and our philosophy of design. Judge for yourself
-    The work and results <br> we’ve achieved for other clients, and meet our highly
-    experienced Team who just love to design.
+  title: Projektujemy maszyny wykorzystujące technologię lewitacji magnetycznej.
+  content:
   button:
     enable: true
     label: Napisz do nas
@@ -71,21 +69,19 @@ funfacts:
     name: Combined Projects
     count: "200"
   testimonial_slider:
-  - name: Raymond Roy
-    image: images/clients/avater-1.jpg
-    designation: CEO-Themefisher
-    content: This Company created an e-commerce site with the tools to make our business
-      a success, with innovative ideas we feel that our site has unique elements that
-      make us stand out from the crowd.
-  - name: Randi Renin
-    image: images/clients/avater-1.jpg
-    designation: CEO-Themefisher
-    content: This Company created an e-commerce site with the tools to make our business
-      a success, with innovative ideas we feel that our site has unique elements that
-      make us stand out from the crowd.
-  - name: Rose Rio
-    image: images/clients/avater-3.jpg
-    designation: CEO-Themefisher
-    content: This Company created an e-commerce site with the tools to make our business
-      a success, with innovative ideas we feel that our site has unique elements that
-      make us stand out from the crowd.
+  - name: Adam Piłat
+    image: images/teams/team-1.jpg
+    designation: dr inż.
+    content: tutaj jakiś opis
+  - name: Bartłomiej Sikora
+    image: images/teams/team-1.jpg
+    designation: mgr inż.
+    content: tutaj jakiś opis
+  - name: Jakub Źrebiec
+    image: images/teams/team-1.jpg
+    designation: mgr inż.
+    content: tutaj jakiś opis
+  - name: Jan Gliwa
+    image: images/teams/team-1.jpg
+    designation: mgr inż.
+    content: tutaj jakiś opis

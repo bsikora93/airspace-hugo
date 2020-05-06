@@ -36,7 +36,7 @@ about:
       
 ################################ feature #####################################
 features:
-  enable : true
+  enable : false
   title : "We are indepented Design & Development Agency"
   feature_item:
     # feature item loop
@@ -76,7 +76,7 @@ testimonial:
   # testimonial content comes from "data/*/homepage.yml" file
 
 mission_vision:
-  enable : true
+  enable : false
   tabs:
     # tab item loop
     - name : "Vision"
