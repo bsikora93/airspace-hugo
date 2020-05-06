@@ -12,7 +12,7 @@ banner:
 about:
   enable: true
   title: O nas
-  description: Far far away, behind the word mountains, far from the countries Vokalia
+  description: Far farXDXDXD away, behind the word mountains, far from the countries Vokalia
     and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
     right at the coast of the Semantics
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -21,7 +21,7 @@ about:
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id.
-  image: images/wrapper-img.png
+  image: images/yellow_amb.jpg
 portfolio:
   enable: true
   bg_image: images/featue-bg.jpg
