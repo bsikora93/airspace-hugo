@@ -1,6 +1,6 @@
 ---
-title: "Our Project"
-description: "this is meta description"
+title: "Baza technologiczna"
+description: "Sprzęt i aparatura pomiarowo-badawcza"
 draft: false
-bg_image: "images/featue-bg.jpg"
+bg_image: "images/229.jpg"
 ---

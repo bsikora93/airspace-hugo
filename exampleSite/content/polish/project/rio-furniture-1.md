@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
-description: "this is meta description"
+title: "Laboratorium"
+description: ""
 draft: false
-image : "images/portfolio/work1.jpg"
-bg_image: "images/featue-bg.jpg"
-category: "UI/UX Design"
+image : "images/lab/lab2.jpg"
+bg_image: "images/229.jpg"
+category: "Laboratorium"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

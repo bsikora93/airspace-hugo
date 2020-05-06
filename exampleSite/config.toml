@@ -24,13 +24,33 @@ languageName = "En"
 weight = 2
 
 [[Languages.pl.menu.main]]
+URL = "project"
+name = "Lab"
+weight = 2
+
+[[Languages.pl.menu.main]]
 URL = "about"
 name = "O nas"
 weight = 1
 [[Languages.pl.menu.main]]
 URL = "contact"
 name = "Kontakt"
-weight = 6
+weight = 3
+
+
+[[Languages.pl.menu.footer]]
+URL = "project"
+name = "Lab"
+weight = 1
+
+[[Languages.pl.menu.footer]]
+URL = "about"
+name = "O nas"
+weight = 2
+[[Languages.pl.menu.footer]]
+URL = "contact"
+name = "Kontakt"
+weight = 3
 
 [[Languages.en.menu.main]]
 URL = "about"
@@ -41,16 +61,6 @@ URL = "contact"
 name = "Contact"
 weight = 6
 
-
-[[Languages.pl.menu.footer]]
-URL = "about"
-name = "O nas"
-weight = 1
-[[Languages.pl.menu.footer]]
-URL = "contact"
-name = "Kontakt"
-weight = 6
-
 [[Languages.en.menu.footer]]
 URL = "about"
 name = "About"
@@ -59,6 +69,11 @@ weight = 1
 URL = "contact"
 name = "Contact"
 weight = 6
+
+
+
+
+
 
 # [[menu.footer]]
 # URL = "project"
@@ -88,7 +103,7 @@ description = "This is meta description"
 email = "demo@email.com"
 google_analitycs_id = ""
 location = "Budynek C3, Aleja Mickiewicza 30, 30-059 Kraków"
-logo = "images/logo_1.png"
+logo = "images/logo.png"
 mobile = "0124857985320"
 phone = "+48 12 617 34 84"
 multi_author = false

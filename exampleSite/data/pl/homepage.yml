@@ -2,11 +2,10 @@
 banner:
   enable: true
   bg_image: images/228.jpg
-  title: Magnetic Levitation Rotating Systems
-  content: Projektujemy, modelujemy i budujemy prototypy maszyn działających w oparciu
-    o technologię lewitacji magnetycznej
+  title: Magnetic Levitation Systems
+  content: Od pomysłu, przez projekt do prototypu maszyny opartej na technologii lewitacji magnetycznej
   button:
-    enable: true
+    enable: false
     label: Dowiedz się, co robimy
     link: project
 about:
@@ -19,9 +18,11 @@ portfolio:
   enable: true
   bg_image: images/amb-1.png
   title: chwytliwy podtytuł
-  content: jakieś hasło + kilak słów o technologii
-  button:
-    enable: false
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
+          iure off"
+
+  button: 
+    enable: enable
     label: View Works
     link: project
 service:
