@@ -2,14 +2,30 @@
 about:
   enable : true
   image : "images/052.jpg"
+  image : "images/052.jpg"
   title : "We strive to be the best and <br> make awesome work."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
-          iure officiis facere vitae itaque.
-          
-          
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
-          velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Provident, neque!"
+  content : "Laboratorium lewitacji magnetycznej i tworzący go zespół jest stosunkowo młodym tworem, 
+        gdyż formalnie uzyskał on warunki do rozwoju w lutym 2019 roku. Do tego czasu prowadzone działania były
+        zorientowane na cząstkowe rozwiązywanie zagadnień z zakresu identyfikacji, modelowania, syntezy sterowania, 
+        projektowania i sterowania w czasie rzeczywistym. Badania te były realizowane systematycznie przez aktualnego 
+        kierownika zespołu od roku 1999, pracowników Katedry, studentów oraz doktorantów. Doprowadziły one do opracowania 
+        konstrukcji prototypowych zawieszeń magnetycznych i łożysk magnetycznych. W lutym 2019 roku laboratorium uzyskało
+        pomieszczenie w budynku C3 (pok. 12), gdzie zgromadzono dotychczas wykonane urządzenia i zakupioną aparaturę 
+        badawczą. Doposażenie w aparaturę pomiarowo-sterującą, rozszerzenie bazy sprzętowej w 2019 roku oraz nowe
+        warunki pracy sprawiły, że realizowane prace naukowo-badawcze oraz doktorskie nabrały tempa, ponadto pozyskano
+        zlecenie na badania z podmiotu zewnętrznego w zakresie identyfikacji, modelowania, projektowania sterowania
+        zintegrowanego zespołu napędowego z opcją lewitacji (badania poufne). Aktualnie przygotowywane są 
+        opracowania publikacyjne z własnych badań laboratoryjnych oraz zostały wytyczone dalsze cele na prace
+        naukowo-badawcze mające doprowadzić do sfinalizowania dwóch doktoratów w ciągu najbliższych 2-3 lat 
+        oraz uzyskania tytułu profesora przez kierownika laboratorium. Wnioskowany grant badawczy umożliwi 
+        realizację w/w zamierzeń. W minionych latach w ramach współpracy międzynarodowej nawiązano kontakty
+        z Uniwersytetem w Uppsali (Szwecja) uczestnicząc w projekcie związanym z łożyskowaniem magnetycznym 
+        hydrogeneratora. B. Sikora był tam na wyjeździe studyjnym. Ponadto współpracowano z Uniwersytetem w 
+        Finlandii, czego rezultatem był rozdział z monografii. Dzięki udziałowi w konferencjach międzynarodowych 
+        (ISMB) poświęconych tematyce łożysk magnetycznych kierownik zespołu jest na bieżąco z aktualną tematyką 
+        w zakresie technologii aktywnej lewitacji magnetycznej oraz ma kontakt z naukowcami z różnych krajów.
+        We wnioskowanym obszarze nawiązano bliższe kontakty z Uniwersytetem w Linz (Austria) w celu współpracy 
+        w ramach ostatniego spotkania konferencyjnego we wrześniu w Zittau (Niemcy)."
 
   button:
     enable : false

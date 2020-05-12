@@ -3,7 +3,7 @@ banner:
   enable: true
   bg_image: images/228.jpg
   title: Magnetic Levitation Systems
-  content: Od pomysłu, przez projekt do prototypu maszyny opartej na technologii lewitacji magnetycznej
+  content: Od pomysłu, przez projekt do prototypu maszyn opartych na technologii lewitacji magnetycznej
   button:
     enable: false
     label: Dowiedz się, co robimy
@@ -11,8 +11,16 @@ banner:
 about:
   enable: true
   title: O nas
-  description: minimalny opis (2-3 zdania) nizej rozwiniecie
-  content: Laboratorium lewitacji magnetycznej i tworzący go zespół jest stosunkowo młodym tworem, 
+  description: Kim jesteśmy i czym się zajmujemy w swojej pracy naukowo-badwaczej?
+  
+  content: "Laboratorium lewitacji magnetycznej wraz z zespołem to twór młody, lecz rozwijający się dynamicznie. 
+          Rozwiązujemy problemy łożyskowania i zawieszenia magnetycznego
+          s
+          s
+          s
+          s
+          "
+ 
   image: images/amb-2.png
 portfolio:
   enable: true
