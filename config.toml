@@ -24,28 +24,25 @@ languageName = "En"
 weight = 2
 
 [[Languages.pl.menu.main]]
-URL = "lab"
-name = "Lab"
-weight = 2
-
-[[Languages.pl.menu.main]]
 URL = "about"
 name = "O nas"
 weight = 1
+[[Languages.pl.menu.main]]
+URL = "lab"
+name = "Lab"
+weight = 2
 [[Languages.pl.menu.main]]
 URL = "contact"
 name = "Kontakt"
 weight = 3
 
-
-[[Languages.pl.menu.footer]]
-URL = "project"
-name = "Lab"
-weight = 1
-
 [[Languages.pl.menu.footer]]
 URL = "about"
 name = "O nas"
+weight = 1
+[[Languages.pl.menu.footer]]
+URL = "lab"
+name = "Lab"
 weight = 2
 [[Languages.pl.menu.footer]]
 URL = "contact"
