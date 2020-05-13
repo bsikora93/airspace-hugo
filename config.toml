@@ -24,7 +24,7 @@ languageName = "En"
 weight = 2
 
 [[Languages.pl.menu.main]]
-URL = "project"
+URL = "lab"
 name = "Lab"
 weight = 2
 

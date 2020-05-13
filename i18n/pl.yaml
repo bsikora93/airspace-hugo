@@ -25,14 +25,14 @@
 - id: posted_by
   translation: Posted By
 - id: read_more
-  translation: Continue Reading
+  translation: Czytaj dalej
 - id: latest_posts
-  translation: Derniers articles
+  translation: Najnowsze posty
 - id: page_prev
-  translation: Précédent
+  translation: Poprzednia
 - id: page_next
-  translation: Suivant
+  translation: Następna
 - id: tags
-  translation: Mots clefs
+  translation: Tagi
 - id: categories
-  translation: Catégories
+  translation: Kategorie
