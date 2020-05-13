@@ -21,16 +21,18 @@
                   <div class="testimonial-carousel text-center">
                     <div class="testimonial-slider owl-carousel">
                       {{ range $data.homepage.funfacts.testimonial_slider }}
-                      <div>
+                      <div class="row">
+                        <div class="col-md-6 user">
+                          <img src="{{ .image | relURL }}" alt="team">
+                          <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
+                        </div>
+                        <div class="col-md-6">
                         <i class="fas fa-rocket maglers-green-dark"></i>
                         <ul class="maglers-list">
                           {{ range .content }}
                             <li>{{ . }}</li>
                           {{ end }}
                         </ul>
-                        <div class="user">
-                          <img src="{{ .image | relURL }}" alt="team">
-                          <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
                         </div>
                       </div>
                       {{ end }}
