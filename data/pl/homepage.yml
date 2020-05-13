@@ -30,7 +30,7 @@ portfolio:
           iure off"
 
   button: 
-    enable: enable
+    enable: false
     label: View Works
     link: project
 service:
