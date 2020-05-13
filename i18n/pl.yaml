@@ -1,3 +1,5 @@
+- id: in
+  translation: w
 - id: contact_user_name
   translation: Imie i Nazwisko
 - id: contact_email
@@ -21,7 +23,7 @@
 - id: submit
   translation: Wyślij wiadmość
 - id: all
-  translation: All
+  translation: Wszystkie
 - id: posted_by
   translation: Posted By
 - id: read_more

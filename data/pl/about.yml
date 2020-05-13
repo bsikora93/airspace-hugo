@@ -35,7 +35,7 @@ about:
     # funfacts loop
     - icon : "fas fa-file" #fontawesome
       name : "Opublikowanych publikacji"
-      count : "1"
+      count : "35"
       
     - icon : "fas fa-comments"
       name : "Wystąpień konferencyjnych"
