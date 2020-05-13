@@ -1,18 +1,373 @@
 publications:
-  - publication:
-      authors:
-        - J. Źrebiec
-        - A. Piłat
-      title: tytuł 1
-      year: 2012
-  - publication:
-      authors:
-        - B. Sikora
-        - J. Źrebiec
-      title: Tytuł 2
-      year: 2050
-  - publication:
-      authors:
-        - Zenek
-      title: Tytuł 3
-      year: 2050
+- publication:
+    authors:
+    - Baranowski, J.
+    - Piatek, P.
+    - Pilat, A.
+    doi: null
+    id: BaPiPi2008
+    title: Nonlinear observer design for the magnetic levitation system
+    type: article
+    url: null
+    year: 2008
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2010scr
+    title: 'Hard and soft real-time in application of programmable analog device
+
+      (in Polish)'
+    type: incollection
+    url: null
+    year: 2010
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2020
+    title: "6 pole AMB as a drive of elliptic rotor \u2013 initial study supported\n\
+      by the virtual prototype"
+    type: article
+    url: null
+    year: 2020
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2018elip
+    title: '6 pole AMB as a drive of elliptic rotor - initial study supported
+
+      by the Virtual Prototype'
+    type: conference
+    url: null
+    year: 2018
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat13hab
+    title: Active magnetic levitation systems
+    type: book
+    url: null
+    year: 2013
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2013
+    title: Active magnetic levitation systems
+    type: book
+    url: null
+    year: 2013
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2013fem
+    title: 'Modelling, investigation, simulation, and PID current control of
+
+      Active Magnetic Levitation FEM model'
+    type: inproceedings
+    url: null
+    year: 2013
+- publication:
+    authors:
+    - Pilat, A.
+    doi: 10.1109/MMAR.2013.6669923
+    id: Pilat2013MMARfem
+    title: 'Modelling, investigation, simulation, and PID current control of
+
+      Active Magnetic Levitation FEM model'
+    type: inproceedings
+    url: null
+    year: 2013
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2012cms
+    title: 'Modeling, Simulation and Control of Dual Electromagnet Active Magnetic
+
+      Levitation'
+    type: inproceedings
+    url: null
+    year: 2012
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2012pe
+    title: 'The programmable analog controller: static and dynamic configuration,
+
+      as exemplified for active magnetic levitation'
+    type: article
+    url: null
+    year: 2012
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2011PAR
+    title: Systemy aktywnej lewitacji magnetycznej
+    type: article
+    url: null
+    year: 2011
+- publication:
+    authors:
+    - A. Pilat
+    doi: null
+    id: Pilat2010amm
+    title: Analytical modeling of active magnetic bearing geometry
+    type: article
+    url: null
+    year: 2010
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2010ISMB
+    title: 'Features and limitation of the programmable analogue signal processing
+
+      for levitated devices'
+    type: conference
+    url: null
+    year: 2010
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2009fpaa
+    title: Semi-automatic design and code generation for FPAA devices
+    type: conference
+    url: null
+    year: 2009
+- publication:
+    authors:
+    - Pilat, A.
+    doi: https://doi.org/10.3182/20090819-3-PL-3002.00029
+    id: Pilat2009mls2em
+    title: Testing Performance and Reliability of Magnetic Suspension Controllers
+    type: article
+    url: http://www.sciencedirect.com/science/article/pii/S1474667015304328
+    year: 2009
+- publication:
+    authors:
+    - A. Pilat
+    doi: null
+    id: Pilat2008RAMS
+    title: Active magnetic suspension and bearing
+    type: book
+    url: null
+    year: 2008
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2005mlfpaa
+    title: 'Programmable analog hardware for control systems exampled by magnetic
+
+      suspension'
+    type: conference
+    url: null
+    year: 2006
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2006ISMB
+    title: PD control strategy for 3 coils AMB
+    type: conference
+    url: null
+    year: 2006
+- publication:
+    authors:
+    - Pilat, A.
+    doi: null
+    id: Pilat2002phd
+    title: Active Magnetic Levitation Systems
+    type: book
+    url: null
+    year: 2002
+- publication:
+    authors:
+    - Pilat, A.
+    - Sikora B.
+    doi: null
+    id: '2018'
+    title: 'Design and initial study of porous core electromagnet for levitation
+
+      applications'
+    type: conference
+    url: https://aip.scitation.org/doi/pdf/10.1063/1.5066519
+    year: 2018
+- publication:
+    authors:
+    - Pilat, A.
+    - Gliwa, J.
+    doi: null
+    id: PiGl2020
+    title: 'Analysis of magnetic inductance, coil current and levitating sphere
+
+      displacement recorded during stabilization experiments'
+    type: inproceedings
+    url: null
+    year: 2020
+- publication:
+    authors:
+    - Pilat, A.
+    - Klocek, J.
+    doi: null
+    id: PiKl2018pac
+    title: Investigation of programmable automation controller for AMB applications
+    type: conference
+    url: null
+    year: 2018
+- publication:
+    authors:
+    - Pilat, A.
+    - Klocek, J.
+    doi: null
+    id: PiKl2011pac
+    title: Configurable Analog Computer
+    type: article
+    url: null
+    year: 2011
+- publication:
+    authors:
+    - Pilat, A.
+    - Klocek, J.
+    doi: null
+    id: PiKl2011pac2
+    title: Modular apparatus for diagnosis and control tasks (in Polish)
+    type: article
+    url: null
+    year: 2011
+- publication:
+    authors:
+    - Pilat, A.
+    - Sikora, B.
+    - Klocek, J.
+    - Cieslik, J.
+    doi: null
+    id: PiSiKlCi2018
+    title: Set-up of active magnetic bearings for control of flexible shaft
+    type: inproceedings
+    url: https://aip.scitation.org/doi/pdf/10.1063/1.5066520
+    year: 2018
+- publication:
+    authors:
+    - Pilat, A.
+    - Sikora, B.
+    - Zrebiec, J.
+    - Klocek J.
+    doi: null
+    id: PiSiZrKl2019
+    title: 'The initial study on the high-speed spindle for ultra-centrifuge
+
+      high gravity experiments'
+    type: conference
+    url: null
+    year: 2019
+- publication:
+    authors:
+    - Pilat, A.
+    - Sikora B.
+    - Zrebiec J.
+    doi: null
+    id: PiSiZr2019
+    title: 'Investigation of lateral stiffness and damping in levitation system
+
+      with opposite electromagnets'
+    type: inproceedings
+    url: https://ieeexplore-1ieee-1org-1000047680156.wbg2.bg.agh.edu.pl/stamp/stamp.jsp?tp=&arnumber=8765163
+    year: 2019
+- publication:
+    authors:
+    - Pilat, A.
+    - Zrebiec J.
+    - Sikora B.
+    doi: null
+    id: PiZrSi2019
+    title: 'Neural velocity observer trained with experimental data supporting
+
+      stabilization of magnetically levitating sphere'
+    type: inproceedings
+    url: https://ieeexplore-1ieee-1org-1000047680156.wbg2.bg.agh.edu.pl/stamp/stamp.jsp?tp=&arnumber=8765042
+    year: 2019
+- publication:
+    authors:
+    - Rosol, M.
+    - Pilat, A.
+    - Turnau A.
+    doi: null
+    id: RoPiTu2010
+    title: Real-time controller design based on NI compact-RIO
+    type: conference
+    url: null
+    year: 2010
+- publication:
+    authors:
+    - Rozewicz, M.
+    - Pilat, A.
+    doi: null
+    id: RoPi2019
+    title: 'Nonlinear robust disturbance observer based control for bicycle with
+
+      CMG stabilizer'
+    type: inproceedings
+    url: https://www.sciencedirect.com/science/article/pii/S2405896319304008/pdf?md5=324278725ff1cc65b9dea9dd902481be&pid=1-s2.0-S2405896319304008-main.pdf
+    year: 2019
+- publication:
+    authors:
+    - Rozewicz, M.
+    - Pilat, A.
+    doi: null
+    id: RoPi2018
+    title: 'Study on controller embedding stage using Model-Based-Design for
+
+      a bike with CMG'
+    type: inproceedings
+    url: null
+    year: 2018
+- publication:
+    authors:
+    - Sikora, B.
+    - Pilat A.
+    doi: null
+    id: SiPi2019ae
+    title: 'Numerical model of the axial magnetic bearing with six cylindrical
+
+      poles'
+    type: article
+    url: http://journals.pan.pl/Content/109924/PDF/AEE-68-1-2019_art_15.pdf?handler=pdf
+    year: 2019
+- publication:
+    authors:
+    - Sikora, B.
+    - Pilat, A.
+    doi: null
+    id: SiPi2018aamb
+    title: Hybrid axial active magnetic bearing - design, modelling and prototype
+    type: conference
+    url: null
+    year: 2018
+- publication:
+    authors:
+    - Zrebiec, J.
+    - Pilat, A.
+    doi: null
+    id: '2018'
+    title: Identification of electromotive force in BLDC drive
+    type: article
+    url: http://www.elektr.polsl.pl/images/elektryka/2019/145/2-zrebiec_pilat.pdf
+    year: 2018
+- publication:
+    authors:
+    - \'Zrebiec, J.
+    doi: 10.7494/automat.2016.20.1.7
+    id: Zrebiec2016
+    title: "Modelling of unmanned aerial vehicle \u2013 tricopter."
+    type: article
+    url: http://journals.bg.agh.edu.pl/AUTOMAT/2016.20.1/automat.2016.20.1.7.pdf
+    year: 2016
