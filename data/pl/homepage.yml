@@ -67,16 +67,30 @@ funfacts:
   - name: Adam Piłat
     image: images/teams/apilat.jpg
     designation: dr inż.
-    content: tutaj jakiś opis
+    content:
+      - projektowanie i prototypowanie urządzeń z technologią lewitacji
+      - projektowanie regulatorów
+      - modelowanie - cyfrowe bliźniaki
+      - analiza i ocena jakości
+      - inteligentne systemy sterowania
   - name: Bartłomiej Sikora
     image: images/teams/bsikora.jpg
     designation: mgr inż.
-    content: tutaj jakiś opis
+    content:
+      - projektowanie CAD
+      - modelowanie pola magnetycznego
   - name: Jakub Źrebiec
     image: images/teams/jzrebiec.jpg
     designation: mgr inż.
-    content: tutaj jakiś opis
+    content:
+      - sterowaie silnikami BLDC
+      - estymacja stanu
+      - wbudowane algorytmyy sterowania
+      - procesor sygnałowt TI
   - name: Jan Gliwa
     image: images/teams/jgliwa.jpg
     designation: inż.
-    content: tutaj jakiś opis
+    content: 
+      - sterowaie silnikami BLDC
+      - zastosowania Filtru Kalmana
+      - automatyzacja badań eksperymentalnych

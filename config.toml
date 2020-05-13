@@ -118,6 +118,8 @@ link = "contact"
 [[params.plugins.css]]
 link = "css/override_colors.css"
 [[params.plugins.css]]
+link = "css/main.css"
+[[params.plugins.css]]
 link = "plugins/fontawesome/css/all.css"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"

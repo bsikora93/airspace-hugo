@@ -79,8 +79,12 @@
           <div class="testimonial-slider owl-carousel">
             {{ range $data.homepage.funfacts.testimonial_slider }}
             <div>
-              <i class="ion-quote maglers-green-dark"></i>
-              <p>"{{ .content | markdownify }}"</p>
+              <i class="fas fa-rocket maglers-green-dark"></i>
+              <ul class="maglers-list">
+                {{ range .content }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              </ul>
               <div class="user">
                 <img src="{{ .image | relURL }}" alt="team">
                 <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
