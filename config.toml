@@ -4,7 +4,7 @@ disableLanguages = ["en"]
 disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
-theme = "AMLweb"
+theme = "airspace-hugo"
 title = "Maglers | Magnetic Levitation Rotating Systems"
 
 [Languages.pl]
