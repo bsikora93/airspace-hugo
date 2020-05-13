@@ -10,8 +10,34 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="about-img">
-          <img class="img-responsive" src="{{ .image | relURL }}">
+        <div class="short-div">
+          <div class="about-img">
+            <img class="img-responsive" src="{{ .image | relURL }}">
+          </div>
+        </div>
+        <div class="short-div">
+          <section class="testimonial section-sm">
+                {{ if $data.about.testimonial.enable }}
+                  <div class="testimonial-carousel text-center">
+                    <div class="testimonial-slider owl-carousel">
+                      {{ range $data.homepage.funfacts.testimonial_slider }}
+                      <div>
+                        <i class="fas fa-rocket maglers-green-dark"></i>
+                        <ul class="maglers-list">
+                          {{ range .content }}
+                            <li>{{ . }}</li>
+                          {{ end }}
+                        </ul>
+                        <div class="user">
+                          <img src="{{ .image | relURL }}" alt="team">
+                          <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
+                        </div>
+                      </div>
+                      {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+          </section>
         </div>
       </div>
       <div class="col-md-6">
@@ -68,59 +94,6 @@
 </section>
 {{ end }}
 {{ end }}
-
-<section class="testimonial section-sm">
-  <div class="container">
-    <div class="row">
-      {{ if $data.about.testimonial.enable }}
-	  <div class="col-md-3">&nbsp;</div>
-      <div class="col-md-6">
-        <div class="testimonial-carousel text-center">
-          <div class="testimonial-slider owl-carousel">
-            {{ range $data.homepage.funfacts.testimonial_slider }}
-            <div>
-              <i class="fas fa-rocket maglers-green-dark"></i>
-              <ul class="maglers-list">
-                {{ range .content }}
-                  <li>{{ . }}</li>
-                {{ end }}
-              </ul>
-              <div class="user">
-                <img src="{{ .image | relURL }}" alt="team">
-                <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
-              </div>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-	  <div class="col-md-3">&nbsp;</div>
-      {{ end }}
-
-<!--       {{ if $data.about.mission_vision.enable }}
-      {{ with $data.about.mission_vision }}
-      <div class="col-md-6">
-        <div class="tabCommon">
-          <ul class="nav nav-tabs">
-            {{ range $index, $elements := .tabs }}
-            <li {{ if eq $index 0}} class="active" {{ end }}><a href="#{{.name | urlize}}"
-                data-toggle="tab">{{.name}}</a></li>
-            {{ end }}
-          </ul>
-          <div class="tab-content">
-            {{ range $index, $elements := .tabs }}
-            <div id="{{.name | urlize}}" class="tab-pane fade {{ if eq $index 0}} active in {{ end }}">
-              <p>{{ .content | markdownify }}</p>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      {{ end }}
-      {{ end }} -->
-    </div>
-  </div>
-</section>
 
 <!-- Call to action -->
 {{ if $data.about.cta.enable }}
