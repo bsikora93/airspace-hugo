@@ -1,0 +1,18 @@
+publications:
+  - publication:
+      authors:
+        - J. Źrebiec
+        - A. Piłat
+      title: tytuł 1
+      year: 2012
+  - publication:
+      authors:
+        - B. Sikora
+        - J. Źrebiec
+      title: Tytuł 2
+      year: 2050
+  - publication:
+      authors:
+        - Zenek
+      title: Tytuł 3
+      year: 2050
