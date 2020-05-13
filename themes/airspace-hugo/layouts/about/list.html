@@ -28,8 +28,8 @@
       {{ range .funfacts }}
       <div class="col-md-3">
         <div class="counter-item">
-          <i class="{{ .icon }}"></i>
-          <h4 class="count" data-count="{{ .count }}">0</h4>
+          <i class="{{ .icon }} maglers-green-dark"></i>
+          <h4 class="count maglers-green-dark" data-count="{{ .count }}">0</h4>
           <span>{{ .name }}</span>
         </div>
       </div>
@@ -79,7 +79,7 @@
           <div class="testimonial-slider owl-carousel">
             {{ range $data.homepage.funfacts.testimonial_slider }}
             <div>
-              <i class="ion-quote"></i>
+              <i class="ion-quote maglers-green-dark"></i>
               <p>"{{ .content | markdownify }}"</p>
               <div class="user">
                 <img src="{{ .image | relURL }}" alt="team">

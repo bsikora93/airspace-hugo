@@ -1,3 +1,9 @@
-.maglers-green {
-    color: #4fa229 !important;
+.maglers-green-dark {
+    color: #519657 !important;
+}
+.maglers-green-light {
+    color: #b2fab4 !important;
+}
+.maglers-green-primary {
+    color: #81c784 !important;
 }
