@@ -50,6 +50,7 @@
                       <p class="maglers-publication-authors">{{ delimit .publication.authors ", " }}</p>
                       {{ if .publication.booktitle }}
                       <p class="maglers-publication-description"> {{ .publication.booktitle }}</p>
+                      {{ end }}
                       <div class="row">
                         <div class="col-sm-12"><p class="maglers-publication-description">
                           {{ if .publication.year }}Year: {{ .publication.year }}{{ end }}
@@ -58,7 +59,6 @@
                           </p>
                         </div>
                       </div>
-                      {{ end }}
                     </div>
                     <div class="col-sm-2">
                       <div class="row">
