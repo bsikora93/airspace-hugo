@@ -3,6 +3,10 @@ $(window).on('load', function () {
 	$('.preloader').fadeOut(100);
 });
 
+function sortByYear(element) {
+    return element.getAttribute('data-year').toLowerCase();
+}
+
 $(document).ready(function () {
 	'use strict';
 
@@ -10,9 +14,14 @@ $(document).ready(function () {
 	var containerEl = document.querySelector('.shuffle-wrapper');
 	if (containerEl) {
 		var Shuffle = window.Shuffle;
+		var sortOptions = {
+			reverse: true,
+			by: sortByYear
+		}
 		var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
 			itemSelector: '.shuffle-item',
-			buffer: 1
+			buffer: 1,
+			initialSort: sortOptions
 		});
 
 		jQuery('input[name="shuffle-filter"]').on('change', function (evt) {

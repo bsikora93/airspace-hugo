@@ -43,7 +43,7 @@
                 {{ $authors = $authors | append ( . | urlize ) }}
                 {{ end }}
                 <div class="col-sm-12 portfolio-item shuffle-item"
-                  data-groups='[&quot;{{delimit $authors "&quot;, &quot;"}}&quot;]'>
+                  data-groups='[&quot;{{delimit $authors "&quot;, &quot;"}}&quot;]' {{if .publication.year }} data-year="{{ .publication.year }}"{{ end }}>
                   <div class="row">
                     <div class="col-sm-10">
                       <p>{{ delimit .publication.authors ", " }} {{if .publication.year }} ({{ .publication.year }})
