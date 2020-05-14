@@ -2,7 +2,8 @@
 banner:
   enable: true
   bg_image: images/227.jpg
-  title: Magnetic Levitation Systems
+  title1: MAGLES
+  title2: Magnetic Levitation Systems
   content: Od pomysłu, przez projekt do prototypu maszyn opartych na technologii lewitacji magnetycznej
   button:
     enable: false
@@ -12,14 +13,11 @@ about:
   enable: true
   title: O nas
   description: Kim jesteśmy i czym się zajmujemy w swojej pracy naukowo-badwaczej?
-  
-  content: "Laboratorium lewitacji magnetycznej wraz z zespołem to twór młody, lecz rozwijający się dynamicznie. 
-          Rozwiązujemy problemy łożyskowania i zawieszenia magnetycznego
-          s
-          s
-          s
-          s
-          "
+  content: "MAGLES to młody zespół, który wyróżnia interdyscyplinarne podejście do problemu, 
+  poszukiwanie jak najlepszych rozwiązań technologicznych i osiągnieć naukowych w realizacji lewitacji magnetycznej. 
+  Rozwijamy się dzięki konsultacji i współpracy w środowisku zarówno naukowym, jak i przemysłowym, ze specjalistami 
+  i producentami podzespołów mechanicznych, pomiarowych i sterowniczych. Pozwala nam to na integrację 
+  narzędzi projektowych ze szczególnym naciskiem na sterowanie."
  
   image: images/ramb-1.png
 portfolio:

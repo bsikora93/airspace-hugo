@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>{{ .title | markdownify }}</h1>
+          <h1>{{ .title1 | markdownify }}<br/>{{ .title2 | markdownify }}</h1>
           <p>{{ .content | markdownify }}</p>
           {{ if .button.enable }}
           {{ with .button }}
@@ -38,7 +38,7 @@
             <h2>{{ .title | markdownify }}</h2>
             <p>{{ .description | markdownify }}</p>
           </div>
-          <p>{{ .content | markdownify }}</p>
+          <p class="text-justify">{{ .content | markdownify }}</p>
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
