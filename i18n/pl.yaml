@@ -1,3 +1,11 @@
+- id: Copied
+  translation: Skopiowano!
+- id: copyTo
+  translation: Skopiuj do schowka
+- id: Copy
+  translation: Skopiuj
+- id: cite
+  translation: Cytowanie
 - id: in
   translation: w
 - id: contact_user_name

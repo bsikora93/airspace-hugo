@@ -1,5 +1,12 @@
 import bibtexparser
 import yaml
+import json
+import os
+
+from bibtexparser.bparser import BibTexParser
+from bibtexparser.customization import homogenize_latex_encoding
+from bibtexparser.bibdatabase import BibDatabase
+from bibtexparser.bwriter import BibTexWriter
 
 PATH_TO_BIBTEX_FILE = "./references.bib"
 
@@ -39,7 +46,7 @@ with open(PATH_TO_BIBTEX_FILE) as publications_file:
 dataToExport = []
 
 for pub in publications.entries:
-    print(pub)
+    # print(pub)
     toExport = dict(publication=dict(title=pub["title"], year=int(pub["year"]), doi=pub.get("doi"), url=pub.get("url"), authors=getAuthors(pub["author"]), type=pub["ENTRYTYPE"], id=pub["ID"], publisher=pub.get("publisher"), booktitle=pub.get("booktitle")))
     dataToExport.append(toExport)
 
@@ -47,5 +54,26 @@ allowedAuthors = ["Piłat, A.", "Sikora, B.", "Źrebiec, J.", "Gliwa, J."]
 
 dataToExport = dict(publications=dataToExport, allowedAuthors=allowedAuthors)
 
-stream = open("publications.yml", "w")
+stream = open("publications.yml", "w", -1, "utf-8", None, '\n')
 yaml.dump(dataToExport, stream)
+
+# Export each entrie to separate json file
+
+parser = BibTexParser()
+parser.customization = homogenize_latex_encoding
+
+with open(PATH_TO_BIBTEX_FILE) as publications_file:
+    publications = bibtexparser.load(publications_file, parser=parser)
+
+db = BibDatabase()
+writer = BibTexWriter()
+
+for pub in publications.entries:
+    db.entries = [pub]
+    publicationAsString = writer.write(db)
+    data = dict(data=publicationAsString)
+    path = "publications/bibtex/"
+    if not os.path.exists(path):
+        os.makedirs(path)
+    with open(path + pub["ID"] + ".json", "w", -1, "utf-8", None, '\n') as outfile:
+        json.dump(data, outfile)

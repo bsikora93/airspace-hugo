@@ -25,4 +25,4 @@ hugo.linux
 
 # End of https://www.gitignore.io/api/hugo,visualstudiocode
 
-tools/publication_exporter/publications.yml
+tools/publication_exporter/publications*

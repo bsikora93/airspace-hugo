@@ -10,7 +10,7 @@
 <section class="portfolio-work">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-sm-12">
         <div class="block">
           <div class="row portfolio-menu">
             <div class="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
@@ -34,36 +34,42 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
               <div class="row shuffle-wrapper">
                 {{ range .publications }}
                 {{ $authors := slice }}
                 {{ range .publication.authors }}
                 {{ $authors = $authors | append ( . | urlize ) }}
                 {{ end }}
-                <div class="col-md-12 portfolio-item shuffle-item"
+                <div class="col-sm-12 portfolio-item shuffle-item"
                   data-groups='[&quot;{{delimit $authors "&quot;, &quot;"}}&quot;]'>
                   <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-sm-10">
                       <p>{{ delimit .publication.authors ", " }} {{if .publication.year }} ({{ .publication.year }})
                         {{ end }}
-                        <i>&quot;{{ .publication.title }}&quot;</i>{{ if .publication.booktitle }}, {{ i18n "in" }} {{ .publication.booktitle }}{{ end }}{{ if .publication.publisher }}. {{ .publication.publisher }}{{ end }}</p>
+                        <i>&quot;{{ .publication.title }}&quot;</i>{{ if .publication.booktitle }}, {{ i18n "in" }}
+                        {{ .publication.booktitle }}{{ end }}{{ if .publication.publisher }}.
+                        {{ .publication.publisher }}{{ end }}</p>
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-sm-1">
                       {{ if .publication.doi }}
-                      <a href="https://doi.org/{{ .publication.doi }}" target="_blank"><i class="fas fa-download maglers-green-dark"></i></a>
+                      <a href="https://doi.org/{{ .publication.doi }}" target="_blank"><i
+                          class="fas fa-download maglers-green-dark"></i></a>
                       {{ else if .publication.url }}
-                      <a href="{{ .publication.url }}" target="_blank"><i class="fas fa-download maglers-green-dark"></i></a>
+                      <a href="{{ .publication.url }}" target="_blank"><i
+                          class="fas fa-download maglers-green-dark"></i></a>
                       {{ end }}
                     </div>
-                    <div class="col-md-1"><i class="fas fa-quote-right maglers-green-dark"></i></div>
+                    <div class="col-sm-1"><a href="#" data-toggle="modal" data-target="#citationModal"
+                        data-id="{{ .publication.id }}"><i class="fas fa-quote-right maglers-green-dark"></i></a>
+                    </div>
                   </div>
                 </div>
                 {{ end }}
               </div>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-sm-2"></div>
           </div>
         </div>
       </div>
@@ -72,5 +78,28 @@
 </section>
 
 {{ end }}
+
+<!-- Modal -->
+<div class="modal fade" id="citationModal" tabindex="-1" role="dialog" aria-labelledby="citationModal"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </a>
+        <h4 class="modal-title">{{ i18n "cite" }}</h4>
+      </div>
+      <div class="modal-body">
+        <pre id="modalBody" class="maglers-citation-body">
+        </pre>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary maglers-btn" id="copy-button" data-toggle="tooltip" data-placement="button"
+        title='{{ i18n "copyTo" }}'>{{ i18n "Copy" }}</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 {{ end }}
