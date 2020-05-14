@@ -17,28 +17,34 @@
         </div>
         <div class="short-div">
           <section class="testimonial section-sm">
-                {{ if $data.about.testimonial.enable }}
-                  <div class="testimonial-carousel text-center">
-                    <div class="testimonial-slider owl-carousel">
-                      {{ range $data.homepage.funfacts.testimonial_slider }}
+            {{ if $data.about.testimonial.enable }}
+            <div class="testimonial-carousel text-center">
+              <div class="testimonial-slider owl-carousel">
+                {{ range $data.homepage.funfacts.testimonial_slider }}
+                <div class="col-sm-12">
+                  <div class="row">
+                    <div class="col-sm-4 user">
+                      <img src="{{ .image | relURL }}" alt="team">
+                      <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
+                    </div>
+                    <div class="col-sm-8">
                       <div class="row">
-                        <div class="col-md-6 user">
-                          <img src="{{ .image | relURL }}" alt="team">
-                          <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
-                        </div>
-                        <div class="col-md-6">
                         <i class="fas fa-rocket maglers-green-dark"></i>
+                      </div>
+                      <div class="row">
                         <ul class="maglers-list">
                           {{ range .content }}
-                            <li>{{ . }}</li>
+                          <li>{{ . }}</li>
                           {{ end }}
                         </ul>
-                        </div>
                       </div>
-                      {{ end }}
                     </div>
+                  </div>
                 </div>
                 {{ end }}
+              </div>
+            </div>
+            {{ end }}
           </section>
         </div>
       </div>
