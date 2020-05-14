@@ -47,8 +47,10 @@ dataToExport = []
 
 for pub in publications.entries:
     # print(pub)
-    toExport = dict(publication=dict(title=pub["title"], year=int(pub["year"]), doi=pub.get("doi"), url=pub.get("url"), authors=getAuthors(pub["author"]), type=pub["ENTRYTYPE"], id=pub["ID"], publisher=pub.get("publisher"), booktitle=pub.get("booktitle")))
-    dataToExport.append(toExport)
+    toExport = dict(title=pub["title"], year=int(pub["year"]), doi=pub.get("doi"), url=pub.get("url"), authors=getAuthors(pub["author"]), type=pub["ENTRYTYPE"], id=pub["ID"], publisher=pub.get("publisher"), booktitle=pub.get("booktitle"), journal=pub.get("journal"))
+    filtered = {k: v for k, v in toExport.items() if v is not None}
+    print(filtered)
+    dataToExport.append(dict(publication=filtered))
 
 allowedAuthors = ["Piłat, A.", "Sikora, B.", "Źrebiec, J.", "Gliwa, J."]
 

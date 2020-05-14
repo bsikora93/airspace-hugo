@@ -50,6 +50,8 @@
                       <p class="maglers-publication-authors">{{ delimit .publication.authors ", " }}</p>
                       {{ if .publication.booktitle }}
                       <p class="maglers-publication-description"> {{ .publication.booktitle }}</p>
+                      {{ else if .publication.journal }}
+                      <p class="maglers-publication-description"> {{ .publication.journal }}</p>
                       {{ end }}
                       <div class="row">
                         <div class="col-sm-12"><p class="maglers-publication-description">
