@@ -15,7 +15,7 @@
           <div class="row portfolio-menu">
             <div class="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
               <label class="btn btn-sm btn-primary active">
-                <input type="radio" name="shuffle-filter" value="all" checked="checked">{{ i18n "all" }}
+                <input type="radio" name="pub-shuffle-filter" value="all" checked="checked">{{ i18n "all" }}
               </label>
               {{ $authors := slice }}
               {{ range .publications }}
@@ -27,7 +27,7 @@
               {{ range $authors }}
               {{ if in $data.publications.allowedAuthors . }}
               <label class="btn btn-sm btn-primary">
-                <input type="radio" name="shuffle-filter" value="{{ . | urlize }}">{{ . }}
+                <input type="radio" name="pub-shuffle-filter" value="{{ . | urlize }}">{{ . }}
               </label>
               {{ end }}
               {{ end }}
@@ -36,13 +36,13 @@
           <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
-              <div class="row shuffle-wrapper">
+              <div class="row pub-shuffle-wrapper">
                 {{ range .publications }}
                 {{ $authors := slice }}
                 {{ range .publication.authors }}
                 {{ $authors = $authors | append ( . | urlize ) }}
                 {{ end }}
-                <div class="col-sm-12 portfolio-item shuffle-item"
+                <div class="col-sm-12 portfolio-item pub-shuffle-item"
                   data-groups='[&quot;{{delimit $authors "&quot;, &quot;"}}&quot;]' {{if .publication.year }} data-year="{{ .publication.year }}"{{ end }}>
                   <div class="row maglers-publication-row">
                     <div class="col-sm-10">
@@ -50,15 +50,17 @@
                       <p class="maglers-publication-authors">{{ delimit .publication.authors ", " }}</p>
                       {{ if .publication.booktitle }}
                       <p class="maglers-publication-description"> {{ .publication.booktitle }}</p>
+                      {{ else if .publication.journal }}
+                      <p class="maglers-publication-description"> {{ .publication.journal }}</p>
+                      {{ end }}
                       <div class="row">
                         <div class="col-sm-12"><p class="maglers-publication-description">
-                          {{ if .publication.year }}Year: {{ .publication.year }}{{ end }}
-                          {{ if .publication.type }} | {{ .publication.type }}{{ end }}
-                          {{ if .publication.publisher }} | Publisher: {{ .publication.publisher }}{{ end }}
+                          {{ if .publication.year }}{{ i18n "Year" }}: {{ .publication.year }}{{ end }}
+                          {{ if .publication.type }} | {{ i18n .publication.type }}{{ end }}
+                          {{ if .publication.publisher }} | {{ i18n "Publisher" }}: {{ .publication.publisher }}{{ end }}
                           </p>
                         </div>
                       </div>
-                      {{ end }}
                     </div>
                     <div class="col-sm-2">
                       <div class="row">

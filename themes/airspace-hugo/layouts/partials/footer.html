@@ -54,32 +54,73 @@
 </script>
 
 <script>
-	{ {/*  $(document).ready(function() {  */ } }
-	// Initialize the tooltip.
-	$('#copy-button').tooltip();
+	function fallbackCopyTextToClipboard(text) {
+		var textArea = document.createElement("textarea");
+		textArea.value = text;
 
-	// When the copy button is clicked, select the value of the text box, attempt
-	// to execute the copy command, and trigger event to update tooltip message
-	// to indicate whether the text was successfully copied.
-	$('#copy-button').bind('click', function () {
-		var data = document.querySelector('#modalBody').innerHTML;
-		navigator.clipboard.writeText(data).then(function () {
-			/* clipboard successfully set */
-			$('#copy-button').trigger('copied', ['{{ i18n "Copied" }}']);
-		}, function () {
-			$('#copy-button').trigger('copied', ['Copy with Ctrl-c']);
+		// Avoid scrolling to bottom
+		textArea.style.top = "0";
+		textArea.style.left = "0";
+		textArea.style.position = "fixed";
+
+		document.body.appendChild(textArea);
+		textArea.focus();
+		textArea.select();
+
+		try {
+			var successful = document.execCommand('copy');
+			if (successful) {
+				$('#copy-button').trigger('copied', ['{{ i18n "Copied" }}']);
+			} else {
+				$('#copy-button').trigger('notCopied', ['Copy with Ctrl-c']);
+			}
+		} catch (err) {
+			$('#copy-button').trigger('notCopied', ['Copy with Ctrl-c']);
+		}
+
+		document.body.removeChild(textArea);
+	}
+
+	$(document).ready(function () {
+		// Initialize the tooltip.
+		$('#copy-button').tooltip();
+
+		// When the copy button is clicked, select the value of the text box, attempt
+		// to execute the copy command, and trigger event to update tooltip message
+		// to indicate whether the text was successfully copied.
+		$('#copy-button').bind('click', function () {
+			var data = document.querySelector('#modalBody').innerHTML;
+			if (!navigator.clipboard) {
+				fallbackCopyTextToClipboard(data)
+				return
+			}
+			navigator.clipboard.writeText(data).then(function () {
+				/* clipboard successfully set */
+				$('#copy-button').trigger('copied', ['{{ i18n "Copied" }}']);
+			}, function () {
+				$('#copy-button').trigger('notCopied', ['Copy with Ctrl-c']);
+			});
 		});
-	});
 
-	// Handler for updating the tooltip message.
-	$('#copy-button').bind('copied', function (event, message) {
-		$(this).attr('title', message)
-			.tooltip('fixTitle')
-			.tooltip('show')
-			.attr('title', '{{ i18n "copyTo" }}')
-			.tooltip('fixTitle');
+		// Handler for updating the tooltip message.
+		$('#copy-button').bind('copied', function (event, message) {
+			$(this).attr('title', message)
+				.tooltip('fixTitle')
+				.tooltip('show')
+				.attr('title', '{{ i18n "copyTo" }}')
+				.tooltip('fixTitle');
+		});
+
+		$('#copy-button').bind('notCopied', function (event, message) {
+			console.log(message)
+			$(this).attr('title', message)
+				.tooltip('fixTitle')
+				.tooltip('show')
+				.attr('title', '{{ i18n "copyTo" }}')
+				.tooltip('fixTitle');
+		});
+
 	});
-	{ {/*  });  */ } }
 
 
 </script>
