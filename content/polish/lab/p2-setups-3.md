@@ -1,10 +1,10 @@
 ---
-title: "MLS1EM"
+title: "ddd"
 description: ""
 draft: false
 image : "images/6aamb-1.jpg"
 bg_image: "images/229.jpg"
-category: "Stanowiska"
+category: "Stanowiska1"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"
