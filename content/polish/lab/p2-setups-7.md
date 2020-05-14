@@ -2,7 +2,7 @@
 title: "Łożysko Magnetyczne Promieniowe  "
 description: ""
 draft: false
-image : "images/yelowamb.jpg"
+image : "images/y-amb.jpg"
 bg_image: "images/229.jpg"
 category: "Lewitacja"
 information:

@@ -21,7 +21,7 @@ about:
           s
           "
  
-  image: images/227-small.jpg
+  image: images/bldc-2-small.JPG
 portfolio:
   enable: true
   bg_image: images/amb-1.png
