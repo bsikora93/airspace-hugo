@@ -4,7 +4,7 @@ description: ""
 draft: false
 image : "images/sphere-1.jpg"
 bg_image: "images/229.jpg"
-category: "Stanowiska"
+category: "Lewitacja"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

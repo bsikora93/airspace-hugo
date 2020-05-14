@@ -1,10 +1,10 @@
 ---
-title: "ddd"
+title: "Łożysko Magnetyczne Osiowe"
 description: ""
 draft: false
-image : "images/6aamb-1.jpg"
+image : "images/6aamb-1.JPG"
 bg_image: "images/229.jpg"
-category: "Stanowiska1"
+category: "Lewitacja"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"
