@@ -44,25 +44,37 @@
                 {{ end }}
                 <div class="col-sm-12 portfolio-item shuffle-item"
                   data-groups='[&quot;{{delimit $authors "&quot;, &quot;"}}&quot;]' {{if .publication.year }} data-year="{{ .publication.year }}"{{ end }}>
-                  <div class="row">
+                  <div class="row maglers-publication-row">
                     <div class="col-sm-10">
-                      <p>{{ delimit .publication.authors ", " }} {{if .publication.year }} ({{ .publication.year }})
-                        {{ end }}
-                        <i>&quot;{{ .publication.title }}&quot;</i>{{ if .publication.booktitle }}, {{ i18n "in" }}
-                        {{ .publication.booktitle }}{{ end }}{{ if .publication.publisher }}.
-                        {{ .publication.publisher }}{{ end }}</p>
-                    </div>
-                    <div class="col-sm-1">
-                      {{ if .publication.doi }}
-                      <a href="https://doi.org/{{ .publication.doi }}" target="_blank"><i
-                          class="fas fa-download maglers-green-dark"></i></a>
-                      {{ else if .publication.url }}
-                      <a href="{{ .publication.url }}" target="_blank"><i
-                          class="fas fa-download maglers-green-dark"></i></a>
+                      <h2 class="maglers-publication-title">{{ .publication.title }} </h2>
+                      <p class="maglers-publication-authors">{{ delimit .publication.authors ", " }}</p>
+                      {{ if .publication.booktitle }}
+                      <p class="maglers-publication-description"> {{ .publication.booktitle }}</p>
+                      <div class="row">
+                        <div class="col-sm-12"><p class="maglers-publication-description">
+                          {{ if .publication.year }}Year: {{ .publication.year }}{{ end }}
+                          {{ if .publication.type }} | {{ .publication.type }}{{ end }}
+                          {{ if .publication.publisher }} | Publisher: {{ .publication.publisher }}{{ end }}
+                          </p>
+                        </div>
+                      </div>
                       {{ end }}
                     </div>
-                    <div class="col-sm-1"><a href="#" data-toggle="modal" data-target="#citationModal"
-                        data-id="{{ .publication.id }}"><i class="fas fa-quote-right maglers-green-dark"></i></a>
+                    <div class="col-sm-2">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          {{ if .publication.doi }}
+                          <a href="https://doi.org/{{ .publication.doi }}" target="_blank"><i
+                              class="fas fa-download maglers-green-dark"></i></a>
+                          {{ else if .publication.url }}
+                          <a href="{{ .publication.url }}" target="_blank"><i
+                              class="fas fa-download maglers-green-dark"></i></a>
+                          {{ end }}
+                        </div>
+                        <div class="col-sm-6"><a href="#" data-toggle="modal" data-target="#citationModal"
+                            data-id="{{ .publication.id }}"><i class="fas fa-quote-right maglers-green-dark"></i></a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
