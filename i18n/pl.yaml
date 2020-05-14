@@ -1,3 +1,17 @@
+- id: incollection
+  translation: Rozdział
+- id: conference
+  translation: Materiały konferencyjne
+- id: inproceedings
+  translation: Materiały konferencyjne
+- id: book
+  translation: Książka
+- id: article
+  translation: Artykuł
+- id: Publisher
+  translation: Wydawca
+- id: Year
+  translation: Rok
 - id: Copied
   translation: Skopiowano!
 - id: copyTo

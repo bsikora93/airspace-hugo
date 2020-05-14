@@ -53,9 +53,9 @@
                       {{ end }}
                       <div class="row">
                         <div class="col-sm-12"><p class="maglers-publication-description">
-                          {{ if .publication.year }}Year: {{ .publication.year }}{{ end }}
-                          {{ if .publication.type }} | {{ .publication.type }}{{ end }}
-                          {{ if .publication.publisher }} | Publisher: {{ .publication.publisher }}{{ end }}
+                          {{ if .publication.year }}{{ i18n "Year" }}: {{ .publication.year }}{{ end }}
+                          {{ if .publication.type }} | {{ i18n .publication.type }}{{ end }}
+                          {{ if .publication.publisher }} | {{ i18n "Publisher" }}: {{ .publication.publisher }}{{ end }}
                           </p>
                         </div>
                       </div>
