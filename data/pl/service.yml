@@ -39,25 +39,27 @@ featured_service:
 ############################# Service ###############################
 service:
   enable : true
-  title : "Czym się zajmujemy"
-  description : "Opcjonalny opis"
+  title : "Oferta technologiczna"
+  description : "Wirtualne prototypowanie, czyli jakość rozwiązania na drodze optymalizacji produktu"
   service_item:
     # service item loop
-    - icon : ion-wand #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-calculator #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Modelowanie
-      content: "Budujemy zaawansowane, nieliniowe modele matematyczne dowolnych systemów"
+      content: "Zaawansowane, nieliniowe modele matematyczne układów dynamicznych w oparciu o obliczenia analityczne i numeryczne *FEM*"
 
-    - icon : ion-refresh
+    - icon : ion-search
       name: Identyfikacja
-      content: "Posiadamy aparaturę do identyfikacji zależności elektromagnetycznych"
+      content: "Najnowsza aparatura pomiarowa pozwalaja na dokładną identyfikację zależności elektromagnetycznych opisujących działanie systemu "
 
-    - icon : ion-calculator
-      name: Obliczenia
-      content: "Wykonujemy obliczenia numeryczne, symboliczne oraz FEM"
+    - icon : ion-ios-game-controller-b
+      name: Sterowanie
+      content: "Konfiguracja własności dynamicznych, synteza
+                regulatora, rekonfiguracja regulatora w reżimie twardego czasu rzeczywistego, sterowanie inteligentne
+                "
 
-    - icon : ion-edit
-      name: Projektowanie
-      content: "Projektujemy prototypy maszyn działających w oparciu o technologię lewitacji magnetycznej"
+    - icon : ion-ios-gear
+      name: Prototypowanie
+      content: "Konstrukcja prototypów maszyn wykorzystujących technologię lewitacji magnetycznej w oparciu o metody *rapid prototyping*"
 
 ############################# call to action #################################
 cta:

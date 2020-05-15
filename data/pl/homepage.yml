@@ -23,24 +23,23 @@ about:
 portfolio:
   enable: true
   bg_image: images/amb-1.png
-  title: chwytliwy podtytuł
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
-          iure off"
+  title: Nasze laboratorium
+  content : "Konstrukcje prototypowe i aparatura pomiarowo-sterująca"
 
   button: 
-    enable: false
-    label: View Works
-    link: project
+    enable: true
+    label: Zobacz
+    link: lab
 service:
   enable: true
 cta:
   enable: true
   bg_image: images/230.jpg
-  title: Projektujemy maszyny wykorzystujące technologię lewitacji magnetycznej.
+  title: Rozważasz zastosowanie technologii lewitacji magnetycznej w Twoim produkcie?
   content:
   button:
     enable: true
-    label: Napisz do nas
+    label: Skontaktuj się z nami
     link: contact
 funfacts:
   enable: false
