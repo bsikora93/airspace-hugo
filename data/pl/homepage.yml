@@ -6,9 +6,9 @@ banner:
   title2: Magnetic Levitation Systems
   content: Od pomysłu, przez projekt do prototypu maszyn opartych na technologii lewitacji magnetycznej
   button:
-    enable: false
+    enable: true
     label: Dowiedz się, co robimy
-    link: project
+    link: technology
 about:
   enable: true
   title: O nas
