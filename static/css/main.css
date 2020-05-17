@@ -3,6 +3,12 @@
     text-align: left;
 }
 
+.maglers-list-about {
+    list-style-type: disc;
+    text-align: left;
+    list-style-position: inside;
+}
+
 .maglers-citation-body {
     border-radius: 0%;
 }
