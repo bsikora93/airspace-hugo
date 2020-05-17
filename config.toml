@@ -144,21 +144,21 @@ link = "plugins/google-map/gmap.js"
 [params.preloader]
 enable = true
 preloader = ""
-[[params.social]]
-icon = "ion-social-googleplus-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-linkedin-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-pinterest-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-dribbble-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-twitter-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-facebook-outline"
-link = "#"
+# [[params.social]]
+# icon = "ion-social-googleplus-outline"
+# link = "#"
+# [[params.social]]
+# icon = "ion-social-linkedin-outline"
+# link = "#"
+# [[params.social]]
+# icon = "ion-social-pinterest-outline"
+# link = "#"
+# [[params.social]]
+# icon = "ion-social-dribbble-outline"
+# link = "#"
+# [[params.social]]
+# icon = "ion-social-twitter-outline"
+# link = "#"
+# [[params.social]]
+# icon = "ion-social-facebook-outline"
+# link = "#"
