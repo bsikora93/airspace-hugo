@@ -1,3 +1,7 @@
+- id: researchTopics
+  translation: Zagadnienia Badawcze
+- id: projectDetails
+  translation: Opis
 - id: incollection
   translation: Rozdział
 - id: conference
