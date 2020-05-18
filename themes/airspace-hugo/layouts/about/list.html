@@ -16,38 +16,6 @@
             <img class="img-responsive" src="{{ .image | relURL }}" loading="lazy">
           </div>
         </div>
-        <div class="short-div">
-          <section class="testimonial section-sm">
-            {{ if $data.about.testimonial.enable }}
-            <div class="testimonial-carousel text-center">
-              <div class="testimonial-slider owl-carousel">
-                {{ range $data.homepage.funfacts.testimonial_slider }}
-                <div class="col-sm-12">
-                  <div class="row">
-                    <div class="col-sm-4 user">
-                      <img src="{{ .image | relURL }}" alt="team" loading="lazy">
-                      <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
-                    </div>
-                    <div class="col-sm-8">
-                      <div class="row">
-                        <i class="fas fa-rocket maglers-green-dark"></i>
-                      </div>
-                      <div class="row">
-                        <ul class="maglers-list-about">
-                          {{ range .content }}
-                          <li>{{ . }}</li>
-                          {{ end }}
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {{ end }}
-              </div>
-            </div>
-            {{ end }}
-          </section>
-        </div>
       </div>
       <div class="col-md-6">
         <h2 class="mt-60">{{ .title | markdownify }}</h2> 
@@ -57,32 +25,52 @@
         <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
         {{ end }}
         {{ end }}
-<<<<<<< HEAD
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row counter-box text-center mt-40">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="testimonial maglers-testimonial section-sm">
+          {{ if $data.about.testimonial.enable }}
+          <div class="testimonial-carousel text-center">
+            <div class="testimonial-slider owl-carousel">
+              {{ range $data.homepage.funfacts.testimonial_slider }}
+              <div class="col-sm-12">
+                <div class="row">
+                  <div class="col-sm-4 user">
+                    <img src="{{ .image | relURL }}" alt="team" loading="lazy">
+                    <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
+                  </div>
+                  <div class="col-sm-8">
+                    <div class="row">
+                      <i class="fas fa-rocket maglers-green-dark"></i>
+                    </div>
+                    <div class="row">
+                      <ul class="maglers-list-about">
+                        {{ range .content }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row counter-box text-center mt-50">
           {{ range .funfacts }}
           <div class="col-md-6">
             <div class="counter-item">
-              <i  class="{{ .icon }} maglers-green-dark"></i>
+              <i class="{{ .icon }} maglers-green-dark"></i>
               <h4 class="count maglers-green-dark" data-count="{{ .count }}">0</h4>
               <span>{{ .name }}</span>
             </div>
           </div>
           {{ end }}
-      </div>
-    </div>
-    <div class="row counter-box text-center mt-50">
-      {{ range .funfacts }}
-      <div class="col-md-4">
-        <div class="counter-item">
-          <i class="{{ .icon }} maglers-green-dark"></i>
-          <h4 class="count maglers-green-dark" data-count="{{ .count }}">0</h4>
-          <span>{{ .name }}</span>
->>>>>>> bf527d7fbae47c5a19a0fce7d382e6094902f924
         </div>
       </div>
     </div>
