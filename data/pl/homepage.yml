@@ -22,7 +22,7 @@ about:
   image: images/ramb-1.png
 portfolio:
   enable: true
-  bg_image: images/amb-1.png
+  bg_image: images/amb-1.jpg
   title: Nasze laboratorium
   content : "Konstrukcje prototypowe i aparatura pomiarowo-sterująca"
 

@@ -27,7 +27,7 @@
             </ul>
 					</div>
 					<div class="post-thumb">
-						<img class="img-responsive" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+						<img class="img-responsive" loading="lazy" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
 					</div>
 					<div class="post-content post-excerpt">
 						{{ .Content }}
