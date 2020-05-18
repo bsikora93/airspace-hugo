@@ -5,8 +5,11 @@ draft: false
 image : "images/lab/lab1.jpg"
 bg_image: "images/229.jpg"
 category: "Laboratorium"
-projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+projectDescription: "Model laboratoryjny pojazdu nad torem magnetycznym. Charakteryzuje się pasywną lewitacją oraz aktywną lewitacją i napędem.   "
 researchTopics:
-  - Identyfikacja
-  - Modelowanie
+- identyfikacja 
+- modelowanie 
+- projektowanie układu sterowania 
+- projektowanie autonomicznego sterownika 
+- sterowanie wbudowane w mikrokontroler 
 ---

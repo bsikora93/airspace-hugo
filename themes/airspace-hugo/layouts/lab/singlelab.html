@@ -12,12 +12,12 @@
       </div>
       <div class="col-md-4">
         <div class="project-details">
-          <h4>{{ i18n "projectDetails" }}</h4>
-          <p class="text-justify">{{ .Params.ProjectDescription | markdownify }}</p>
+          <h4>{{ i18n "labProto" }}</h4>
+          <p class="text-justify">{{ .Params.ProjectDescription| markdownify }}</p>
           {{ if .Params.ResearchTopics }}
           <br />
-          <h4>{{ i18n "researchTopics" }}:</h4>
-          <ul class="maglers-list">
+          <h4>{{ i18n "labCtrl" }}:</h4>
+          <ul class="maglers-list-lab">
             {{ range .Params.ResearchTopics }}
             <li><p>{{ . | markdownify }}</p></li>
             {{ end }}
