@@ -11,7 +11,7 @@
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}" media="screen">
+  <link rel="stylesheet" href="{{ .link | absURL }}" media="none" onload="if(media!='screen')media='screen'"><noscript><link rel="stylesheet" href="{{ .link | absURL }}" media="screen"></noscript>
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
