@@ -1,7 +1,7 @@
 - id: lab-constructions
-  translation: Konstrukcje
+  translation: Konstrukcje prototypowe
 - id: labGear
-  translation: Aparatura
+  translation: Aparatura pomiarowo-sterująca
 - id: researchTopics
   translation: Zagadnienia Badawcze
 - id: projectDetails
