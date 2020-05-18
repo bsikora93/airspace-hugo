@@ -1,3 +1,7 @@
+- id: lab-constructions
+  translation: Konstrukcje
+- id: labGear
+  translation: Aparatura
 - id: researchTopics
   translation: Zagadnienia Badawcze
 - id: projectDetails

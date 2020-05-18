@@ -12,8 +12,10 @@
       </div>
       <div class="col-md-4">
         <div class="project-details">
+          {{ if .Params.ProjectDescription }}
           <h4>{{ i18n "projectDetails" }}</h4>
           <p class="text-justify">{{ .Params.ProjectDescription | markdownify }}</p>
+          {{ end }}
           {{ if .Params.ResearchTopics }}
           <br />
           <h4>{{ i18n "researchTopics" }}:</h4>
@@ -22,7 +24,24 @@
             <li><p>{{ . | markdownify }}</p></li>
             {{ end }}
           </ul>
-          
+          {{ end }}
+          {{ if .Params.Constructions }}
+          <br />
+          <h4>{{ i18n "lab-constructions" }}:</h4>
+          <ul class="maglers-list">
+            {{ range .Params.Constructions }}
+            <li><p>{{ . | markdownify }}</p></li>
+            {{ end }}
+          </ul>
+          {{ end }}
+          {{ if .Params.LabGear }}
+          <br />
+          <h4>{{ i18n "labGear" }}:</h4>
+          <ul class="maglers-list">
+            {{ range .Params.LabGear }}
+            <li><p>{{ . | markdownify }}</p></li>
+            {{ end }}
+          </ul>
           {{ end }}
         </div>
       </div>
