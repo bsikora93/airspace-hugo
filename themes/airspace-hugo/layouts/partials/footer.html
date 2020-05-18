@@ -20,6 +20,12 @@
 <script src="{{ .Site.Params.gmap.gmap_api | safeURL }}"></script>
 {{ end }}
 
+{{ if .Site.Params.map.enable }}
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+{{ $script := resources.Get "js/leaflet-providers.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+{{ end }}
+
 <!-- JS Plugins -->
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
@@ -124,3 +130,13 @@
 
 
 </script>
+
+{{ if .Site.Params.map.enable }}
+<script>
+	$(document).ready(function(){
+		var mymap = L.map('map_canvas').setView([{{ .Site.Params.map.latitude }}, {{ .Site.Params.map.longitude }}], 16);
+		L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(mymap);
+		L.marker([{{ .Site.Params.map.latitude }}, {{ .Site.Params.map.longitude }}]).addTo(mymap);
+	});
+</script>
+{{ end }}

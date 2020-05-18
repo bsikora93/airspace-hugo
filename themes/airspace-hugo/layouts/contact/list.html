@@ -56,6 +56,15 @@
         </div>
       </div>
       {{ end }}
+      {{ if .Site.Params.map.enable }}
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="leaflet-map">
+            <div class="maglers-map" id="map_canvas"></div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
     </div>
   </div>
 </section>

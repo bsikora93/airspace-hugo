@@ -105,11 +105,15 @@ mobile = "0124857985320"
 phone = "+48 12 617 34 84"
 multi_author = false
 [params.gmap]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 map_latitude = "50.066181"
 map_longitude = "19.921567"
 map_marker = "images/marker.png"
+[params.map]
+enable = true
+latitude = "50.066181"
+longitude = "19.921567"
 [params.nav_button]
 enable = true
 label = "Get A Quote"
