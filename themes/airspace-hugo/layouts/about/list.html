@@ -57,6 +57,7 @@
         <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
         {{ end }}
         {{ end }}
+<<<<<<< HEAD
         <br>
         <br>
         <br>
@@ -72,6 +73,17 @@
             </div>
           </div>
           {{ end }}
+=======
+      </div>
+    </div>
+    <div class="row counter-box text-center mt-50">
+      {{ range .funfacts }}
+      <div class="col-md-4">
+        <div class="counter-item">
+          <i class="{{ .icon }} maglers-green-dark"></i>
+          <h4 class="count maglers-green-dark" data-count="{{ .count }}">0</h4>
+          <span>{{ .name }}</span>
+>>>>>>> bf527d7fbae47c5a19a0fce7d382e6094902f924
         </div>
       </div>
     </div>
