@@ -10,7 +10,6 @@
       <form method="POST" action="{{ .Site.Params.contact_form_action | safeURL }}">
         <div class="col-md-6 col-sm-12">
           <div class="block">
-            <div class="g-recaptcha" data-sitekey="6LcP_fgUAAAAAJOhyB22n2WuZYCAk0LrGnKUhUnq"></div>
             <div class="form-group">
               <input name="user_name" type="text" class="form-control" placeholder="{{ i18n "contact_user_name" }}">
             </div>
@@ -27,6 +26,7 @@
             <div class="form-group-2">
               <textarea name="user_message" class="form-control" rows="4" placeholder="{{ i18n "contact_message" }}"></textarea>
             </div>
+            <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
             <button class="btn btn-default maglers-btn" type="submit">{{ i18n "submit" }}</button>
           </div>
         </div>
