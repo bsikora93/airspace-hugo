@@ -97,12 +97,12 @@ weight = 6
 author = "B. Sikora, J. Źrebiec, A. Piłat"
 contact_form_action = "https://getform.io/f/fe7a4709-ea80-4765-ae10-d569261a0a0c"
 description = "This is meta description"
-email = "demo@email.com"
+email = "ap@agh.edu.pl"
 google_analitycs_id = "UA-166787700-1"
-location = "Budynek C3, Aleja Mickiewicza 30, 30-059 Kraków"
+location = "C3, pok. 12, Al. A. Mickiewicza 30, 30-059 Kraków"
 logo = "images/logo-agh-2.png"
 mobile = "0124857985320"
-phone = "+48 12 617 34 84"
+phone = "+48 12 6173484"
 multi_author = false
 [params.gmap]
 enable = false

@@ -1,5 +1,9 @@
 - id: researchTopics
   translation: Zagadnienia Badawcze
+- id: lab-proto
+  translation: Konstrukcje prototypowe
+- id: lab-ctrl
+  translation: Aparatura pomiarowo-sterująca
 - id: projectDetails
   translation: Opis
 - id: incollection

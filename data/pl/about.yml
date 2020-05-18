@@ -1,18 +1,16 @@
 ################################## About #####################################
 about:
   enable : true
-  image : "images/052.jpg"
+  image : "images/hamb-1.png"
   title : "Lewitacja z pasją i profesjonalizmem"
-  content : "Laboratorium lewitacji magnetycznej i tworzący go zespół są stosunkowo młodym tworem, 
+  content : "Laboratorium lewitacji magnetycznej i tworzący go zespół są  młodym tworem, 
         gdyż formalnie uzyskały warunki do rozwoju z początkiem 2019 roku. Do tego czasu prowadzone działania były
         zorientowane na rozwiązywanie zagadnień z zakresu identyfikacji, modelowania, syntezy sterowania, 
         projektowania i sterowania w czasie rzeczywistym. Badania były realizowane systematycznie przez aktualnego 
-        kierownika zespołu od roku 1999, pracowników Katedry, studentów oraz doktorantów. Doprowadziły one do opracowania 
-        konstrukcji prototypowych zawieszeń magnetycznych i łożysk magnetycznych. W 2019 roku laboratorium uzyskało
-        pomieszczenie w budynku C3 (pok. 12), gdzie zgromadzono dotychczas wykonane urządzenia i zakupioną aparaturę 
-        badawczą. Doposażenie w aparaturę pomiarowo-sterującą, rozszerzenie bazy sprzętowej oraz nowe
+        kierownika zespołu od roku 1999, a także przez pracowników Katedry, studentów oraz doktorantów. Doprowadziły one do opracowania 
+        konstrukcji prototypowych zawieszeń magnetycznych i łożysk magnetycznych. Doposażenie w aparaturę pomiarowo-sterującą, rozszerzenie bazy sprzętowej oraz nowe
         warunki pracy sprawiły, że realizowane prace naukowo-badawcze oraz doktorskie nabrały tempa. Ponadto pozyskano
-        zlecenie na badania z podmiotu zewnętrznego w zakresie identyfikacji, modelowania, projektowania sterowania
+        zlecenie na badania z podmiotu zewnętrznego w zakresie identyfikacji, modelowania i projektowania sterowania
         zintegrowanego zespołu napędowego z opcją lewitacji (badania poufne). Aktualnie przygotowywane są 
         opracowania publikacyjne z własnych badań laboratoryjnych prowadzące do sfinalizowania dwóch doktoratów w ciągu najbliższych 2-3 lat.
         Dzięki udziałowi w konferencjach międzynarodowych (ISMB) poświęconych tematyce łożysk magnetycznych kierownik 
@@ -33,13 +31,13 @@ about:
       #name : "Wystąpień konferencyjnych"
       #count : "1"
       
-    - icon : "fas fa-list-alt"
-      name : "Zgłoszonych patentów"
-      count : "1"
+    #- icon : "fas fa-list-alt"
+    #  name : "Zgłoszonych patentów"
+    #  count : "1"
       
     - icon : "fas fa-cogs"
       name : "Zbudowanych prototypów"
-      count : "1"
+      count : "10"
       
 ################################ feature #####################################
 features:

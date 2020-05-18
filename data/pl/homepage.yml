@@ -76,13 +76,14 @@ funfacts:
     content:
       - projektowanie CAD
       - modelowanie pola magnetycznego
+      - dynamika maszyn wirnikowych
   - name: Jakub Źrebiec
     image: images/teams/jzrebiec.jpg
     designation: mgr inż.
     content:
-      - sterowaie silnikami BLDC
+      - sterowanie silnikami BLDC
       - estymacja stanu
-      - wbudowane algorytmyy sterowania
+      - wbudowane algorytmy sterowania
       - procesor sygnałowt TI
   - name: Jan Gliwa
     image: images/teams/jgliwa.jpg

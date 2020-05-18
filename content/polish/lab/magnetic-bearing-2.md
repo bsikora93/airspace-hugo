@@ -5,17 +5,11 @@ draft: false
 image : "images/y-amb.jpg"
 bg_image: "images/229.jpg"
 category: "Lewitacja"
-information:
-  - label : "Client"
-    info : "Jannie Kelonsky"
-  - label : "What We Did"
-    info : "Website Redesign"
-  - label : "Tools Used"
-    info : "Photoshop,Illustrator"
-  - label : "Completed on"
-    info : "17th March 2014"
-  - label : "Skills"
-    info : "HTML5 / PHP / CSS3"
-  - label : "Client"
-    info : "Jannie Kelonsky"
+projectDescription: "Model laboratoryjny pojazdu nad torem magnetycznym. Charakteryzuje się pasywną lewitacją oraz aktywną lewitacją i napędem.   "
+researchTopics:
+- identyfikacja 
+- modelowanie 
+- projektowanie układu sterowania 
+- projektowanie autonomicznego sterownika 
+- sterowanie wbudowane w mikrokontroler 
 ---

@@ -1,9 +1,9 @@
 ---
-title: "Opis technologii"
+title: "Technologia lewitacji magnetycznej"
 draft: false
 bg_image: "images/fw-1.png"
 ---
-{{< figure src="/images/amb-2.png" caption="podpis" height="200px" class="maglers-img-float-left" >}}
+{{< figure src="/images/setup-vert-amb.jpg" caption="" height="400px" class="maglers-img-float-left" >}}
 
 Już wraz z wynalezieniem koła pojawiła się potrzeba rozwiązania problemu łożyskowania. Obecnie poszukiwanie nowych rozwiązań tribologicznych z wykorzystaniem mediów kontrolowanych pozwala na konstruowanie nowych maszyn przeznaczonych do pracy w wymagających warunkach eksploatacyjnych. Interesujący rozwój następuje w obszarze tłumików, gdzie wykorzystuje się sterowane charakterystyki tłumienia osiągane poprzez zastosowanie adaptacyjnego zaworu tłumiącego lub płynu megnetoreologicznego, którego własności sprężysto-tłumiące są sterowane polem magnetycznym. Dynamiczny rozwijają się również systemy ALM (aktywnej lewitacji magnetycznej), stanowiące obszar zainteresowań wielu środowisk naukowych i przemysłowych z uwagi na swoje specyficzne możliwości, nieosiągalne dla rozwiązań klasycznych, tj. bezkontaktowe działanie gwarantujące absolutną czystość środowiska pracy, operowanie w szerokim zakresie temperatur i w różnych środowiskach (np. próżni), eliminacja szkodliwych czynników takich, jak tarcie, drgania i hałas. Pośród problemów związanych z systemami ALM można znaleźć wpływ opóźnień w torze sterowania cyfrowego, a przesyłanie energii do siłowników elektromagnetycznych może powodować tworzenie się linii długich.
 

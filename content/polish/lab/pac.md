@@ -2,7 +2,7 @@
 title: "PSED "
 description: ""
 draft: false
-image : "images/abb-ea-1.JPG"
+image : "images/pac.jpg"
 bg_image: "images/229.jpg"
 category: "Napęd"
 projectDescription: "Model laboratoryjny pojazdu nad torem magnetycznym. Charakteryzuje się pasywną lewitacją oraz aktywną lewitacją i napędem.   "
