@@ -11,12 +11,12 @@
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}" media="none" onload="if(media!='screen')media='screen'"><noscript><link rel="stylesheet" href="{{ .link | absURL }}" media="screen"></noscript>
+  <link rel="stylesheet" href="{{ .link | absURL }}" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="{{ .link | absURL }}" media="all"></noscript>
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="all">
 
   {{ if in .URL "contact" }}
   {{ if .Site.Params.map.enable }}
