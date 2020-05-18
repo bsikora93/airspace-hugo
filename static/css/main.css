@@ -49,3 +49,8 @@
 .maglers-map {
     height: 300px;
 }
+
+.maglers-img-float-left {
+    float: left;
+    margin-right: 1.5em;
+}
