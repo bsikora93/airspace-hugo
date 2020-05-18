@@ -95,7 +95,7 @@ weight = 6
 
 [params]
 author = "B. Sikora, J. Źrebiec, A. Piłat"
-contact_form_action = "#"
+contact_form_action = "https://getform.io/f/fe7a4709-ea80-4765-ae10-d569261a0a0c"
 description = "This is meta description"
 email = "demo@email.com"
 google_analitycs_id = ""
