@@ -1,15 +1,14 @@
 ---
-title: "BEMF "
+title: "Sterowany układ mocy"
 description: ""
 draft: false
 image : "images/bldc-2.JPG"
 bg_image: "images/229.jpg"
 category: "Napęd"
-projectDescription: "Model laboratoryjny pojazdu nad torem magnetycznym. Charakteryzuje się pasywną lewitacją oraz aktywną lewitacją i napędem.   "
+projectDescription: "Zespół sterowanej końcówki mocy do zasilania komponentów indukcyjnych, w tym sterowania elektromagnesami systemów aktywnego zawieszenia magnetycznego, łożyskami magnetycznymi i silnikami BLDC."
 researchTopics:
-- identyfikacja 
-- modelowanie 
-- projektowanie układu sterowania 
-- projektowanie autonomicznego sterownika 
-- sterowanie wbudowane w mikrokontroler 
+- identyfikacja napięcia BEMF 
+- identyfikacja natężenia prądu 
+- modelowanie dynamiki elementów indukcyjnych 
+- sterowanie PWM
 ---

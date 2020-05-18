@@ -1,15 +1,14 @@
 ---
-title: "PSED "
+title: "Sterownik PAC "
 description: ""
 draft: false
 image : "images/pac.jpg"
 bg_image: "images/229.jpg"
-category: "Napęd"
-projectDescription: "Model laboratoryjny pojazdu nad torem magnetycznym. Charakteryzuje się pasywną lewitacją oraz aktywną lewitacją i napędem.   "
+category: "Laboratorium"
+projectDescription: "Konfigurowany Sterownik Automatyki Przemysłowej (PAC)."
 researchTopics:
-- identyfikacja 
-- modelowanie 
-- projektowanie układu sterowania 
-- projektowanie autonomicznego sterownika 
-- sterowanie wbudowane w mikrokontroler 
+- równoległa wielokanałowa akwizycja danych z systemów wielowymiarowych
+- sterowanie w czasie rzeczywistym
+- sterowanie różnymi komponentami automatyki (siłowniki elektromagnetyczne, silniki DC, silniki krokowe, itp.)
+- sterowanie cyfrowe i analogowe
 ---

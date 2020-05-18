@@ -1,15 +1,15 @@
 ---
-title: "PSED "
+title: "Pozaosiowa eliminacja drgań"
 description: ""
 draft: false
 image : "images/abb-ea-1.JPG"
 bg_image: "images/229.jpg"
 category: "Napęd"
-projectDescription: "Model laboratoryjny pojazdu nad torem magnetycznym. Charakteryzuje się pasywną lewitacją oraz aktywną lewitacją i napędem.   "
+projectDescription: "Układ do samosynchronicznej pozaosiowej eliminacji drgań niewyważonej płyty."
 researchTopics:
-- identyfikacja 
-- modelowanie 
+- identyfikacja prędkosci silników
+- pomiar drgań płyty
 - projektowanie układu sterowania 
-- projektowanie autonomicznego sterownika 
-- sterowanie wbudowane w mikrokontroler 
+- optymalizacja wielokryterialna
+- modelowanie i projektowanie eliminatorów drgań
 ---
