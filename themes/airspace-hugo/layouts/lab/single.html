@@ -8,7 +8,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <img class="img-responsive w-100" src="{{ .Params.Image | relURL }}" alt="">
+        <img class="img-responsive w-100" src="{{ .Params.Image | relURL }}" alt="" loading="lazy">
       </div>
       <div class="col-md-4">
         <div class="project-details">
@@ -35,5 +35,11 @@
     </div>
   </div>
 </section>
+
+<!-- Call to action -->
+{{ if $data.about.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+<!-- /Call to action -->
 
 {{ end }}

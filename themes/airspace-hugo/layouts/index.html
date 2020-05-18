@@ -43,7 +43,7 @@
       </div>
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img">
+          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img" loading="lazy">
         </div>
       </div>
     </div>
@@ -122,7 +122,7 @@
               <i class="ion-quote"></i>
               <p>"{{ .content | markdownify }}"</p>
               <div class="user">
-                <img src="{{ .image | relURL }}" alt="client">
+                <img src="{{ .image | relURL }}" alt="client" loading="lazy">
                 <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
               </div>
             </div>

@@ -11,7 +11,7 @@
         <div class="post">
           <div class="post-media post-thumb">
             <a href="{{ .Permalink }}">
-              <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+              <img src="{{ .Params.Image | relURL }}" loading="lazy" alt="{{ .Title }}">
             </a>
           </div>
           <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>

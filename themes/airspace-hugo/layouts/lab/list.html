@@ -29,7 +29,7 @@
           <div class="row shuffle-wrapper">
             {{ range .Data.Pages }}
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
-              <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+              <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" loading="lazy">
               <div class="portfolio-hover">
                 <div class="portfolio-content">
                   <a href="{{ .Params.Image | relURL }}" class="portfolio-popup"><i class="icon ion-search"></i></a>
@@ -45,5 +45,11 @@
     </div>
   </div>
 </section>
+
+<!-- Call to action -->
+{{ if $data.about.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+<!-- /Call to action -->
 
 {{ end }}
