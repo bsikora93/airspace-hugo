@@ -124,7 +124,7 @@ link = "css/override_colors.css"
 [[params.plugins.css]]
 link = "css/main.css"
 [[params.plugins.css]]
-link = "plugins/fontawesome/css/all.css"
+link = "plugins/fontawesome/css/all.min.css"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
