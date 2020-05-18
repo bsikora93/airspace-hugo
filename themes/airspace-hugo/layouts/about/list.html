@@ -50,8 +50,8 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h2 class="mt-60">{{ .title | markdownify }}</h2>
-        {{ .content | markdownify }}
+        <h2 class="mt-60">{{ .title | markdownify }}</h2> 
+        <p class="text-justify">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
