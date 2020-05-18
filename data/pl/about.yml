@@ -37,9 +37,9 @@ about:
       name : "Opublikowanych publikacji"
       count : "35"
       
-    - icon : "fas fa-comments"
-      name : "Wystąpień konferencyjnych"
-      count : "1"
+    #- #icon : "fas fa-comments"
+      #name : "Wystąpień konferencyjnych"
+      #count : "1"
       
     - icon : "fas fa-list-alt"
       name : "Zgłoszonych patentów"

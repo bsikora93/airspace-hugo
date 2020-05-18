@@ -2,12 +2,12 @@
 banner:
   enable: true
   bg_image: images/227.jpg
-  title1: MAGLES
-  title2: Magnetic Levitation Systems
+  title1: MagLeRS
+  title2: Magnetic Levitation Rotating Systems
   content: Od pomysłu, przez projekt do prototypu maszyn opartych na technologii lewitacji magnetycznej
   button:
     enable: true
-    label: Dowiedz się, co robimy
+    label: Technologia
     link: technology
 about:
   enable: true
@@ -39,7 +39,7 @@ cta:
   content:
   button:
     enable: true
-    label: Skontaktuj się z nami
+    label: Napisz do nas
     link: contact
 funfacts:
   enable: false
@@ -63,9 +63,9 @@ funfacts:
   testimonial_slider:
   - name: Adam Piłat
     image: images/teams/apilat.jpg
-    designation: dr inż.
+    designation: dr hab. inż., prof. uczelni
     content:
-      - projektowanie i prototypowanie urządzeń z technologią lewitacji
+      - projektowanie i prototypowanie urządzeń 
       - projektowanie regulatorów
       - modelowanie - cyfrowe bliźniaki
       - analiza i ocena jakości
