@@ -1,4 +1,4 @@
-baseURL = "https://maglers.netlify.com"
+baseURL = "https://maglers.netlify.app/"
 DefaultContentLanguage = "pl"
 disableLanguages = ["en"]
 disqusShortname = ""
@@ -100,7 +100,7 @@ description = "This is meta description"
 email = "ap@agh.edu.pl"
 google_analitycs_id = "UA-166787700-1"
 location = "C3, pok. 12, Al. A. Mickiewicza 30, 30-059 Kraków"
-logo = "images/logo-agh-2.png"
+logo = "images/image20.png"
 mobile = "0124857985320"
 phone = "+48 12 6173484"
 multi_author = false
