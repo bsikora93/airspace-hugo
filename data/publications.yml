@@ -382,3 +382,11 @@ publications:
     type: article
     url: http://journals.bg.agh.edu.pl/AUTOMAT/2016.20.1/automat.2016.20.1.7.pdf
     year: 2016
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    id: Andriollo2020
+    journal: AUTOMATYKA/AUTOMATICS
+    title: "SUPER PUBLIKACJA ZA 200PKT"
+    type: article
+    year: 2016
