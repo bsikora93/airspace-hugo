@@ -3,7 +3,7 @@ banner:
   enable: true
   bg_image: images/227.jpg
   title1: MagLeRS
-  title2: Magnetic Levitation Research Systems
+  title2: Magnetic Levitation Research Systems 
   content: Od pomysłu, przez projekt do prototypu maszyn opartych na technologii lewitacji magnetycznej
   button:
     enable: true
