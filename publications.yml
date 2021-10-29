@@ -1,0 +1,396 @@
+allowedAuthors:
+- "Pi\u0142at, A."
+- Sikora, B.
+- "\u0179rebiec, J."
+- Gliwa, J.
+publications:
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    doi: 10.3390/en13040847
+    id: Andriollo2020
+    journal: Energies
+    title: Design and modeling of an integrated flywheel magnetic suspension for kinetic
+      energy storage systems
+    type: article
+    year: 2020
+- publication:
+    authors:
+    - Baranowski, J.
+    - "Pi\u0105tek, P."
+    - "Pi\u0142at, A."
+    id: BaPiPi2008
+    journal: 'Recent advances in control and automation, Academic Publishing House
+
+      EXIT, Warszawa, Poland'
+    title: Nonlinear observer design for the magnetic levitation system
+    type: article
+    year: 2008
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: Methods of manufacture and application of real-time systems
+    id: Pilat2010scr
+    publisher: Wydawnictwa Komunikacji i Lacznosci
+    title: 'Hard and soft real-time in application of programmable analog device
+
+      (in Polish)'
+    type: incollection
+    year: 2010
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    id: Pilat2020
+    journal: International Journal of Applied Electromagnetics and Mechanics
+    title: "6 pole AMB as a drive of elliptic rotor \u010F\u017C\u02DD initial study\
+      \ supported\nby the virtual prototype"
+    type: article
+    year: 2020
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: "ISMB16 : the 16th International Symposium on Magnetic Bearings, Aug.\n\
+      13\u010F\u017C\u02DD17, 2018, Beijing, China"
+    id: Pilat2018elip
+    title: '6 pole AMB as a drive of elliptic rotor - initial study supported
+
+      by the Virtual Prototype'
+    type: conference
+    year: 2018
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    id: Pilat13hab
+    publisher: AGH University of Science and Technology
+    title: Active magnetic levitation systems
+    type: book
+    year: 2013
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    id: Pilat2013
+    publisher: AGH University of Science and Technology
+    title: Active magnetic levitation systems
+    type: book
+    year: 2013
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: '2013 18th International Conference on Methods Models in Automation
+
+      Robotics (MMAR)'
+    id: Pilat2013fem
+    title: 'Modelling, investigation, simulation, and PID current control of
+
+      Active Magnetic Levitation FEM model'
+    type: inproceedings
+    year: 2013
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: '2013 18th International Conference on Methods Models in Automation
+
+      Robotics (MMAR)'
+    doi: 10.1109/MMAR.2013.6669923
+    id: Pilat2013MMARfem
+    title: 'Modelling, investigation, simulation, and PID current control of
+
+      Active Magnetic Levitation FEM model'
+    type: inproceedings
+    year: 2013
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: Proceedings of the 2012 COMSOL Conference
+    id: Pilat2012cms
+    title: 'Modeling, Simulation and Control of Dual Electromagnet Active Magnetic
+
+      Levitation'
+    type: inproceedings
+    year: 2012
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    id: Pilat2012pe
+    journal: Electrical Review
+    title: 'The programmable analog controller: static and dynamic configuration,
+
+      as exemplified for active magnetic levitation'
+    type: article
+    year: 2012
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    id: Pilat2011PAR
+    journal: Pomiary Automatyka Robotyka
+    title: Systemy aktywnej lewitacji magnetycznej
+    type: article
+    year: 2011
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    id: Pilat2010amm
+    journal: Applied Mathematical Modelling
+    publisher: Elsevier
+    title: Analytical modeling of active magnetic bearing geometry
+    type: article
+    year: 2010
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: '12th International Symposium on Active Magnetic Bearings, Wuhan,
+
+      China, August 22-25'
+    id: Pilat2010ISMB
+    title: 'Features and limitation of the programmable analogue signal processing
+
+      for levitated devices'
+    type: conference
+    year: 2010
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: 'Computer Methods and Systems : 7th conference : 26-27 November 2009,
+
+      Krakow, Poland'
+    id: Pilat2009fpaa
+    title: Semi-automatic design and code generation for FPAA devices
+    type: conference
+    year: 2009
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    doi: https://doi.org/10.3182/20090819-3-PL-3002.00029
+    id: Pilat2009mls2em
+    journal: IFAC Proceedings Volumes
+    title: Testing Performance and Reliability of Magnetic Suspension Controllers
+    type: article
+    url: http://www.sciencedirect.com/science/article/pii/S1474667015304328
+    year: 2009
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: Modelling and simulation
+    id: Pilat2008RAMS
+    publisher: InTech Education and Publishing
+    title: Active magnetic suspension and bearing
+    type: book
+    year: 2008
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: Computer Methods and Systems, Cracow, Poland 14-16, November
+    id: Pilat2005mlfpaa
+    title: 'Programmable analog hardware for control systems exampled by magnetic
+
+      suspension'
+    type: conference
+    year: 2006
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    booktitle: '10th International Symposium on Active Magnetic Bearings, Martigny,
+
+      Switzerland, August 21-23'
+    id: Pilat2006ISMB
+    title: PD control strategy for 3 coils AMB
+    type: conference
+    year: 2006
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    id: Pilat2002phd
+    publisher: AGH University of Science and Technology
+    title: Active Magnetic Levitation Systems
+    type: book
+    year: 2002
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    - Sikora, B.
+    booktitle: 'MSM 2018 : 14th international conference Mechatronics Systems and
+
+      Material'
+    id: '2018'
+    publisher: AIP Publishing
+    title: 'Design and initial study of porous core electromagnet for levitation
+
+      applications'
+    type: conference
+    url: https://aip.scitation.org/doi/pdf/10.1063/1.5066519
+    year: 2018
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    - Gliwa, J.
+    booktitle: MSM 2020, sbumitted for review, 25.04.2020
+    id: PiGl2020
+    title: 'Analysis of magnetic inductance, coil current and levitating sphere
+
+      displacement recorded during stabilization experiments'
+    type: inproceedings
+    year: 2020
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    - Klocek, J.
+    booktitle: "ISMB16 : the 16th International Symposium on Magnetic Bearings, Aug.\n\
+      13\u010F\u017C\u02DD17, 2018, Beijing, China"
+    id: PiKl2018pac
+    title: Investigation of programmable automation controller for AMB applications
+    type: conference
+    year: 2018
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    - Klocek, J.
+    id: PiKl2011pac
+    title: Configurable Analog Computer
+    type: article
+    year: 2011
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    - Klocek, J.
+    id: PiKl2011pac2
+    journal: Pomiary, Automatyka, Robotyka
+    publisher: PIAP
+    title: Modular apparatus for diagnosis and control tasks (in Polish)
+    type: article
+    year: 2011
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    - Sikora, B.
+    - Klocek, J.
+    - "Cie\u015Blik, J."
+    booktitle: "MSM 2018 : 14th international conference Mechatronics Systems and\n\
+      Materials : 4\u010F\u017C\u02DD6 June 2018, Zakopane, Poland"
+    id: PiSiKlCi2018
+    title: Set-up of active magnetic bearings for control of flexible shaft
+    type: inproceedings
+    url: https://aip.scitation.org/doi/pdf/10.1063/1.5066520
+    year: 2018
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    - Sikora, B.
+    - "\u0179rebiec, J."
+    - Klocek, J.
+    booktitle: 'International thermoelectric workshop on New materials for direct
+
+      conversion of heat into electricity,'
+    id: PiSiZrKl2019
+    publisher: 'The Institute of Advanced Manufacturing Technology; AGH University
+
+      of Science and Technology, Faculty of Materials Science and Ceramic'
+    title: 'The initial study on the high-speed spindle for ultra-centrifuge
+
+      high gravity experiments'
+    type: conference
+    year: 2019
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    - Sikora, B.
+    - "\u0179rebiec, J."
+    booktitle: 12th Asian Control Conference (ASCC)
+    id: PiSiZr2019
+    title: 'Investigation of lateral stiffness and damping in levitation system
+
+      with opposite electromagnets'
+    type: inproceedings
+    url: https://ieeexplore-1ieee-1org-1000047680156.wbg2.bg.agh.edu.pl/stamp/stamp.jsp?tp=&arnumber=8765163
+    year: 2019
+- publication:
+    authors:
+    - "Pi\u0142at, A."
+    - "\u0179rebiec, J."
+    - Sikora, B.
+    booktitle: 12th Asian Control Conference (ASCC)
+    id: PiZrSi2019
+    title: 'Neural velocity observer trained with experimental data supporting
+
+      stabilization of magnetically levitating sphere'
+    type: inproceedings
+    url: https://ieeexplore-1ieee-1org-1000047680156.wbg2.bg.agh.edu.pl/stamp/stamp.jsp?tp=&arnumber=8765042
+    year: 2019
+- publication:
+    authors:
+    - "Ros\xF3\u0142, M."
+    - "Pi\u0142at, A."
+    - Turnau, A.
+    booktitle: "Proceedings of the International Multiconference on Computer Science\n\
+      and Information Technology, October 18\xE2\u20AC\u201C20, Wisla, Poland"
+    id: RoPiTu2010
+    title: Real-time controller design based on NI compact-RIO
+    type: conference
+    year: 2010
+- publication:
+    authors:
+    - "R\xF3\u017Cewicz, M."
+    - "Pi\u0142at, A."
+    booktitle: "IFAC-PapersOnLine, ISSN 2405-8963. \u010F\u017C\u02DD 2019 vol. 52\
+      \ iss. 8"
+    id: RoPi2019
+    title: 'Nonlinear robust disturbance observer based control for bicycle with
+
+      CMG stabilizer'
+    type: inproceedings
+    url: https://www.sciencedirect.com/science/article/pii/S2405896319304008/pdf?md5=324278725ff1cc65b9dea9dd902481be&pid=1-s2.0-S2405896319304008-main.pdf
+    year: 2019
+- publication:
+    authors:
+    - "R\xF3\u017Cewicz, M."
+    - "Pi\u0142at, A."
+    booktitle: "MMAR 2018 : 23 international conference on Methods and Models in\n\
+      Automation and Robotics : 27\u010F\u017C\u02DD30 August 2018, Mi?dzyzdroje,\
+      \ Poland"
+    id: RoPi2018
+    title: 'Study on controller embedding stage using Model-Based-Design for
+
+      a bike with CMG'
+    type: inproceedings
+    year: 2018
+- publication:
+    authors:
+    - Sikora, B.
+    - "Pi\u0142at, A."
+    id: SiPi2019ae
+    journal: Archives of Electrical Engineering
+    title: 'Numerical model of the axial magnetic bearing with six cylindrical
+
+      poles'
+    type: article
+    url: http://journals.pan.pl/Content/109924/PDF/AEE-68-1-2019_art_15.pdf?handler=pdf
+    year: 2019
+- publication:
+    authors:
+    - Sikora, B.
+    - "Pi\u0142at, A."
+    booktitle: "ISMB16 : the 16th International Symposium on Magnetic Bearings, Aug.\n\
+      13\u010F\u017C\u02DD17, 2018, Beijing, China"
+    id: SiPi2018aamb
+    title: Hybrid axial active magnetic bearing - design, modelling and prototype
+    type: conference
+    year: 2018
+- publication:
+    authors:
+    - "\u0179rebiec, J."
+    - "Pi\u0142at, A."
+    id: '2018'
+    journal: Elektryka
+    title: Identification of electromotive force in BLDC drive
+    type: article
+    url: http://www.elektr.polsl.pl/images/elektryka/2019/145/2-zrebiec_pilat.pdf
+    year: 2018
+- publication:
+    authors:
+    - "\u0179rebiec, J."
+    doi: 10.7494/automat.2016.20.1.7
+    id: Zrebiec2016
+    journal: AUTOMATYKA/AUTOMATICS
+    title: "Modelling of unmanned aerial vehicle \u010F\u017C\u02DD tricopter."
+    type: article
+    url: http://journals.bg.agh.edu.pl/AUTOMAT/2016.20.1/automat.2016.20.1.7.pdf
+    year: 2016

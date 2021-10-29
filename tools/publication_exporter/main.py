@@ -8,7 +8,7 @@ from bibtexparser.customization import homogenize_latex_encoding
 from bibtexparser.bibdatabase import BibDatabase
 from bibtexparser.bwriter import BibTexWriter
 
-PATH_TO_BIBTEX_FILE = "./references.bib"
+PATH_TO_BIBTEX_FILE = "E:/PhD2020to2021/AMLweb/tools/publication_exporter/references.bib"
 
 def authorMap(author):
     authorLower = author.lower()
