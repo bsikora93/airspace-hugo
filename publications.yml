@@ -4,16 +4,16 @@ allowedAuthors:
 - "\u0179rebiec, J."
 - Gliwa, J.
 publications:
-- publication:
-    authors:
-    - "Pi\u0142at, A."
-    doi: 10.3390/en13040847
-    id: Andriollo2020
-    journal: Energies
-    title: Design and modeling of an integrated flywheel magnetic suspension for kinetic
-      energy storage systems
-    type: article
-    year: 2020
+# - publication:
+#     authors:
+#     - "Pi\u0142at, A."
+#     doi: 10.3390/en13040847
+#     id: Andriollo2020
+#     journal: Energies
+#     title: Design and modeling of an integrated flywheel magnetic suspension for kinetic
+#       energy storage systems
+#     type: article
+#     year: 2020
 - publication:
     authors:
     - Baranowski, J.
