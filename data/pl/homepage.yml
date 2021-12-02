@@ -74,21 +74,41 @@ funfacts:
     image: images/teams/bsikora.jpg
     designation: mgr inż.
     content:
+      - teoria pola elektromagnetycznego
       - projektowanie CAD
-      - modelowanie pola magnetycznego
+      - wirtualne prototypowanie
       - dynamika maszyn wirnikowych
-  - name: Jakub Źrebiec
-    image: images/teams/jzrebiec.jpg
+  - name: Hubert Milanowski
+    image: images/teams/hmilanowski.jpg
     designation: mgr inż.
     content:
-      - sterowanie silnikami BLDC
-      - estymacja stanu
+      - projektowanie regulatorów
+      - inteligentne systemy sterowania
+      - modelowanie systemów dynamicznych
+  - name: Rafał Bieszczad
+    image: images/teams/rbieszczad.jpg
+    designation: mgr inż.
+    content:
       - wbudowane algorytmy sterowania
-      - procesor sygnałowt TI
+      - modelowanie obiektów sterowania
+      - FPGA, układy heterogeniczne
+  - name: Konrad Janczarski
+    image: images/teams/kjanczarski.jpg
+    designation: mgr inż.
+    content:
+      - modelowanie dynamiki przepływów (CFD)
+      - optymalizacja 
+  - name: Kinga Słowik
+    image: images/teams/kslowik.jpg
+    designation: mgr inż.
+    content: 
+      - sterowanie inteligentne
+      - modelowanie sieci neuronowych
+      - nadrzędne algorytmy sterowania
   - name: Jan Gliwa
     image: images/teams/jgliwa.jpg
-    designation: inż.
+    designation: mgr inż.
     content: 
-      - sterowaie silnikami BLDC
-      - zastosowania Filtru Kalmana
-      - automatyzacja badań eksperymentalnych
+      - sterowanie silnikami BLDC
+      - estymacja stanu
+      - uczenie maszynowe i głębokie
